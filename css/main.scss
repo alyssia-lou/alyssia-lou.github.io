@@ -12,7 +12,7 @@ $base-line-height: 1.2;
 $spacing-unit: 10px;
 $text-color: #111;
 $background-color: #fff;
-$on-laptop: 1024px; // Use media queries like this:
+$on-laptop: 1024px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base", "layout", "minotaur";
