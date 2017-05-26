@@ -1,0 +1,30 @@
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" integrity="sha256-JklDYODbg0X+8sPiKkcFURb5z7RvlNMIaE3RA2z97vw="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+
+    // smooth scroll
+    $("#topButton").click(function(e) {
+      e.preventDefault();
+      $('html, body').animate({
+        scrollTop: $("#top").offset().top
+      }, 1000);
+    });
+
+    // create carousels
+    $('.project-images').slick({
+      lazyLoad: 'ondemand',
+      arrows: true,
+      mobileFirst: true,
+      dots: true,
+      dotsClass: 'custom_paging',
+      customPaging: function (slider, i) {
+        return  (i + 1) + ' | ' + slider.slideCount;
+      }
+    });
+    
+  });
+</script>

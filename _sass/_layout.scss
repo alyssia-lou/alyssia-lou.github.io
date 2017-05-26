@@ -1,0 +1,132 @@
+.site-header {
+    position: fixed;
+    z-index: 2000;
+}
+
+.underline-box {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px black solid;
+    padding-top: $spacing-unit;
+    padding-left: $spacing-unit;
+    padding-bottom: 5px;
+}
+
+.big-title {
+    margin: 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.block-title {
+    margin: 0;
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit/2;
+    font-size: 20px;
+}
+
+.block-body {
+    font-size: 18px;
+
+    @media screen and (min-width: $on-laptop){
+        margin-left: 40px;
+    }
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project-info {
+    list-style: none;
+    margin-left: 0;
+}
+
+.project-images {
+    margin-top: 30px;
+
+    @media screen and (max-width: $on-laptop){
+        margin-left: -$spacing-unit;
+        margin-right: -$spacing-unit;
+    }
+}
+
+.footer {
+    z-index: 2500;
+    margin-bottom: 50px;
+
+    @media screen and (min-width: $on-laptop){
+        position: fixed;
+        top: 0;
+        margin-right: $spacing-unit;
+    }
+}
+
+.footer .underline-box{
+    margin-left: -$spacing-unit;
+    width: -webkit-calc(100% + #{$spacing-unit});
+    width: calc(100% + #{$spacing-unit})
+}
+
+.footer .block-body {
+    font-size: 16px;
+}
+
+.container-fluid {
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+}
+
+.main {
+    padding-top: 40px;
+
+    @media screen and (max-width: $on-laptop){
+        padding-top: 45px;
+    }
+}
+
+// slick custom css
+.slick-arrow {
+    top: 0;
+    bottom: 0;
+    height: calc(100% - 29px);
+    width: 50%;
+    transform: none;
+    z-index: 2600;
+    @media screen and (max-width: $on-laptop){
+        display: none!important;
+    }
+}
+
+.slick-next:before, .slick-prev:before {
+    content: none;
+}
+
+.slick-prev {
+    left: 0;
+    cursor: w-resize;
+}
+
+.slick-next {
+    right: 0;
+    cursor: e-resize;
+}
+
+.custom_paging {
+    margin: 0;
+
+    @media screen and (max-width: $on-laptop){
+        margin-right: $spacing-unit;
+    }
+}
+
+.custom_paging li {
+    font-size: 20px;
+    padding-top: $spacing-unit/2;
+    text-align: right;
+    display: none;
+}
+
+.custom_paging li.slick-active {
+    display: block;
+}

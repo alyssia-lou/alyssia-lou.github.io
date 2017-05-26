@@ -1,0 +1,35 @@
+{% assign profile = site.data.profile %}
+
+<footer id="footer" class="footer">
+  <div class="underline-box">
+    <h1 class="big-title">À propos</h1>
+  </div>
+  
+  <h2 class="block-title">Formation</h2>
+  <div class="block-body">
+    {{ profile.formation }}
+  </div>
+
+  <h2 class="block-title">Stages</h2>
+  <div class="block-body">
+    {% for stage in profile.stages %}
+      {{ stage | markdownify }}
+    {% endfor %}
+  </div> 
+
+  <h2 class="block-title">Contact</h2>
+  <div class="block-body">
+    <div>m : <a href="mailto:{{ profile.email }}">{{ profile.email }}</a></div>
+    <div>t : {{ profile.cellphone }}</div>
+    <div>
+      <a href="https://www.linkedin.com/in/{{ profile.linkedin }}/" target="_blank">Linkedin</a>,
+      <a href="https://www.instagram.com/{{ profile.instagram }}/" target="_blank">Instagram</a>
+     </div>
+   </div>
+
+  <h2 class="block-title">Crédits</h2>
+  <div class="block-body">
+    <div>Site &amp; développement : <a href="mailto:{{ profile.email }}">{{ profile.name }}</a></div>
+    <div>Caractère typographique : Minotaur Sans (Production Type)<div>
+  </div>
+</footer>

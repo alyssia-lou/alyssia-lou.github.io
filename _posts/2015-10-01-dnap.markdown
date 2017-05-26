@@ -1,0 +1,17 @@
+---
+layout: project
+title:  "DNAP"
+category: Édition et scénographie
+size: 15 × 21 cm
+pages: 208
+description: >
+  Le projet de scénographie pour mon diplôme de fin de 3e année s'articule autour d'un livre rouge regroupant l’ensemble de mes recherches tout au long de l’année et constituant un mode de lecture dans l’installation des projets. Chaque projet présenté est défini par son numéro de page, et ce même numéro est son cartel dans l’installation.
+images:
+    - dnap/01.jpg
+    - dnap/02.jpg
+    - dnap/03.jpg
+    - dnap/04.jpg
+    - dnap/05.jpg
+    - dnap/06.jpg
+    - dnap/07.jpg
+---
