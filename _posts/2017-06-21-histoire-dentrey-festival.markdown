@@ -1,0 +1,16 @@
+---
+layout: project
+title:  "L'histoire du Dentrey Rock Festival"
+date:   2017-06-21 10:32:05 +0200
+category: Édition
+size: 19 × 27,7 cm
+pages: 100
+description: >
+  À la fin des années 60 émerge au Cambodge un mouvement musical qui permit la rencontre d’éléments de la musique traditionnelle cambodgienne avec les sons du du rock and roll. Avec Sinn Sisamouth, Pan Ron, Ros Sereysothea, Mol Kamach avec le Baksei Cham Krung, Drakkar... 
+    - histoire-dentrey-festival/1_web.jpg
+    - histoire-dentrey-festival/2_web.jpg
+    - histoire-dentrey-festival/3_web.jpg
+    - histoire-dentrey-festival/4_web.jpg
+    - histoire-dentrey-festival/5_web.jpg
+    - histoire-dentrey-festival/6_web.jpg
+---
