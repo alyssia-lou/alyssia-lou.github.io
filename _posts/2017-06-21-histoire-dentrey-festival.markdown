@@ -6,7 +6,7 @@ category: Édition
 size: 19 × 27,7 cm
 pages: 100
 description: >
-  À la fin des années 60 émerge au Cambodge un mouvement musical qui permit la rencontre d’éléments de la musique traditionnelle cambodgienne avec les sons du du rock and roll. Avec Sinn Sisamouth, Pan Ron, Ros Sereysothea, Mol Kamach avec le Baksei Cham Krung, Drakkar... 
+  À la fin des années 60 émerge au Cambodge un mouvement musical qui permit la rencontre d’éléments de la musique traditionnelle cambodgienne avec des sons rock and roll. Avec Sinn Sisamouth, Pan Ron, Ros Sereysothea, Mol Kamach avec le Baksei Cham Krung, Drakkar... 
   
 images:
     - histoire-dentrey-festival/1_web.jpg
