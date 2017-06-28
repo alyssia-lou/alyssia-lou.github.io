@@ -5,6 +5,8 @@ category: Édition
 size: 37,5 × 52 cm
 pages: 40
 description: >
+    Composé en ITC Souvenir Mono.
+  
     Le Dentrey Rock Festival est un festival de musique rock’n’roll qui aurait dû avoir lieu le 15 août 1975 mais qui fût annulé en raison de la montée des Khmers rouges.
     Phnom Penh, la capitale du Cambodge, aurait dû accueillir cet évènement dans son stade Olympique. Le festival fût définitivement annulé lors de la prise de Phnom Penh par les Khmers rouges le 17 avril 1975…
   
