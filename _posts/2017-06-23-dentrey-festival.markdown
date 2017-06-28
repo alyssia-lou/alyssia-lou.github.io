@@ -9,6 +9,7 @@ description: >
     Phnom Penh, la capitale du Cambodge, aurait dû accueillir cet évènement dans son stade Olympique. Le festival fût définitivement annulé lors de la prise de Phnom Penh par les Khmers rouges le 17 avril 1975…
   
 images:
+    - dentrey-festival/0_web.jpg
     - dentrey-festival/1_web.jpg
     - dentrey-festival/2_web.jpg
     - dentrey-festival/3_web.jpg
