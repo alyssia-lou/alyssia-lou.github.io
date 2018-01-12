@@ -6,23 +6,23 @@
 .underline-box {
     width: 100%;
     background-color: white;
-    border-bottom: 1px black solid;
     padding-top: $spacing-unit;
     padding-left: $spacing-unit;
     padding-bottom: 5px;
+    height:50px;
 }
 
 .big-title {
     margin: 0;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .block-title {
     margin: 0;
     padding-top: $spacing-unit;
     padding-bottom: $spacing-unit/2;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .block-body {
@@ -34,7 +34,7 @@
 }
 
 .project {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .project-info {
@@ -78,10 +78,10 @@
 }
 
 .main {
-    padding-top: 40px;
+    padding-top: 60px;
 
     @media screen and (max-width: $on-laptop){
-        padding-top: 45px;
+        padding-top: 60px;
     }
 }
 
