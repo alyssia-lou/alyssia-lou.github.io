@@ -6,7 +6,6 @@ category: Edition, 37,5 × 52 cm, 40 pages
 
 images:
     - dentrey-festival/cover.jpg
-    - dentrey-festival/0_web.jpg
     - dentrey-festival/1_web.jpg
     - dentrey-festival/2_web.jpg
     - dentrey-festival/3_web.jpg
