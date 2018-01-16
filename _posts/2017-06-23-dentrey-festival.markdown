@@ -2,9 +2,7 @@
 layout: project
 title:  "The Dentrey Rock Festival"
 pages: 2017
-category: Edition, 37,5 × 52 cm, 64 pages. 
-description: >
-  <a href="mailto:contact@alyssialou.com">Buy?</a>
+category: Edition, 37,5 × 52 cm, 64 pages. <a href="mailto:contact@alyssialou.com">Buy?</a>
 
 images:
     - dentrey-festival/cover.jpg
