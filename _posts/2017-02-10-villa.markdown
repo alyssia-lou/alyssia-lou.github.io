@@ -4,5 +4,5 @@ title:  "La Doublure"
 category: Residency at La Villa Arson, Nice.
 pages: 2017
 images:
-    - villa/01.jpg
+    - la-doublure/01.jpg
 ---

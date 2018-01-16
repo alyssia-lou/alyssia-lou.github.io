@@ -7,5 +7,4 @@ description: >
   Peu documenté, enseigné, relayé, le travail du collectif de graphistes nommé Grapus est souvent méconnu des générations actuelles d’étudiants. Partant du constat qu’aucun site ne leur est dédié, j’ai acheté le nom de domaine grapus.fr et réalisé leur site internet.
 images:
     - grapus/cover.jpg
-    - grapus/01.gif
 ---
