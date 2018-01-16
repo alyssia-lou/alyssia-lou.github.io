@@ -2,7 +2,7 @@
 layout: project
 title:  "JOMOHOMO"
 pages: 2016
-category: Edition, 9,7 × 18,6 cm, 144 pages
+category: Edition, 9,7 × 18,6 cm, 144 pages.
 description: >
   With [Åbäke](https://www.google.fr/search?q=abake+graphic+design&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwinnJiDyqvTAhXByRoKHXiuCegQ_AUICCgB){:target="_blank"}.  
 
