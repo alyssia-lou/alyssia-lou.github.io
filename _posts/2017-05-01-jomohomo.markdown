@@ -1,9 +1,8 @@
 ---
 layout: project
 title:  "JOMOHOMO"
-category: Édition
-size: 9,7 × 18,6 cm
-pages: 144
+pages: 2016
+category: Edition, 9,7 × 18,6 cm, 144 pages
 description: >
   Avec [Åbäke](https://www.google.fr/search?q=abake+graphic+design&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwinnJiDyqvTAhXByRoKHXiuCegQ_AUICCgB){:target="_blank"}.  
 
@@ -16,6 +15,7 @@ description: >
 
   2017, second edition of 366 *Golden Hour*.
 images: 
+    - jomohomo/cover.jpg
     - jomohomo/01.jpg
     - jomohomo/02.jpg
     - jomohomo/03.jpg
