@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Interactivité"
+title:  "Interactivity"
 category: Edition, 15,5 × 21 cm, 104 pages.
 pages: 2015
 images:

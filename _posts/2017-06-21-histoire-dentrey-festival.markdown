@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "L'histoire du Dentrey Rock Festival"
+title:  "The Story of the Dentrey Rock Festival"
 pages: 2017
 category: Edition, 19 × 27,7 cm, 48 pages.
 description: >
