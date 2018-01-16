@@ -2,6 +2,7 @@
 layout: project
 title:  "De mémoire"
 date:   2017-05-13 10:32:05 +0200
+pages: 2016
 category: Edition, 10,8 × 17,5 cm, 100 pages
 images: 
     - de-memoire/01.jpg
