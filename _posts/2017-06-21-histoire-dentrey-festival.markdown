@@ -8,7 +8,6 @@ description: >
   
 images:
     - histoire-dentrey-festival/cover.jpg
-    - histoire-dentrey-festival/1_web.jpg
     - histoire-dentrey-festival/2_web.jpg
     - histoire-dentrey-festival/3_web.jpg
     - histoire-dentrey-festival/4_web.jpg
