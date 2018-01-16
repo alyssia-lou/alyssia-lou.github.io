@@ -7,9 +7,5 @@ description: >
   With [Anna Petitcollot](http://annapetitcollot.com/){:target="_blank"}.
   
 images: 
-    - z-comme/01.jpg
-    - z-comme/02.jpg
-    - z-comme/03.jpg
-    - z-comme/04.jpg
-    - z-comme/05.jpg
+    - z-comme/cover.jpg
 ---
