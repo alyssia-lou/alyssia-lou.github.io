@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Outland x Å"
+title:  "Outland × Å"
 category: Beer invite.
 pages: 2016
 description: >
