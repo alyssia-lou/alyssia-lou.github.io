@@ -2,7 +2,7 @@
 layout: project
 title:  "Le Dentrey Rock Festival"
 category: 2017
-category: Édition, 37,5 × 52 cm, 40 pages
+category: Edition, 37,5 × 52 cm, 40 pages
 
 images:
     - dentrey-festival/0_web.jpg
