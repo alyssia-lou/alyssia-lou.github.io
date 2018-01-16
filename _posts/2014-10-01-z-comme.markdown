@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Z comme..."
+title:  "Z comme…"
 category: Edition, 11 x 17,5 cm, 102 pages.
 pages: 2014
 description: >

@@ -1,0 +1,8 @@
+---
+layout: project
+title:  "<em>Typography can change the world… just kidding</em>"
+pages: 2016
+
+images:
+    - relax/01.jpg
+---
