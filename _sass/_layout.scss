@@ -1,5 +1,4 @@
 .site-header {
-/*    position: fixed;*/
     z-index: 2000;
 }
 
@@ -29,7 +28,7 @@
     font-size: 18px;
 
     @media screen and (min-width: $on-laptop){
-        margin-left: 40px;
+        /*margin-left: 40px;*/
     }
 }
 
@@ -45,9 +44,9 @@
 .project-images {
     margin-top: 30px;
 
-    @media screen and (max-width: $on-laptop){
+    @media screen and (max-width: $on-laptop){/*
         margin-left: -$spacing-unit;
-        margin-right: -$spacing-unit;
+        margin-right: -$spacing-unit;*/
     }
 }
 
