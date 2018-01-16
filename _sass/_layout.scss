@@ -13,18 +13,16 @@
 .big-title {
     margin: 0;
     text-decoration: none;
-    font-size: 18px;
+    font-size: $base-font-size;
 }
 
 .block-title {
     margin: 0;
-    padding-top: $spacing-unit;
-    padding-bottom: $spacing-unit/2;
-    font-size: 18px;
+    font-size: $base-font-size;
 }
 
 .block-body {
-    font-size: 18px;
+    font-size: $base-font-size;
 
     @media screen and (min-width: $on-laptop){
         /*margin-left: 40px;*/
@@ -41,7 +39,6 @@
 }
 
 .project-images {
-    margin-top: 30px;
 
     @media screen and (max-width: $on-laptop){/*
         margin-left: -$spacing-unit;
@@ -76,10 +73,10 @@
 }
 
 .main {
-    padding-top: 60px;
+/*    padding-top: 60px;*/
 
     @media screen and (max-width: $on-laptop){
-        padding-top: 60px;
+/*        padding-top: 60px;*/
     }
 }
 
