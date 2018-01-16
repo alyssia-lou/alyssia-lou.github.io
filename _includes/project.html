@@ -6,9 +6,9 @@
   <div class="block-body">
 
     <ul class="project-info">
+      {% if project.pages %}<li>{{ project.pages }}</li>{% endif %}
       {% if project.category %}<li>{{ project.category }}</li>{% endif %}
       {% if project.size %}<li>{{ project.size }}</li>{% endif %}
-      {% if project.pages %}<li>{{ project.pages }}</li>{% endif %}
     </ul>
     <p>{{ project.description | markdownify }}</p>
 
