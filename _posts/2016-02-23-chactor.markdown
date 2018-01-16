@@ -2,7 +2,9 @@
 layout: project
 title:  "Chactor"
 pages: 2016
-category: Digital engraving. Thanks to Facteur Cheval & Sniper.
+category: Digital engraving. 
+description: >
+  Thanks to Facteur Cheval & Sniper.
 
 images:
     - chactor/01.jpg
