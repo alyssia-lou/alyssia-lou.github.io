@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Droulers WEB TEST_Italic';
+    src:    url('Droulers_WEB_TEST-Italic.eot');
+    src:    url('Droulers_WEB_TEST-Italic.eot?#iefix') format('embedded-opentype'),
+            url('Droulers_WEB_TEST-Italic.woff') format('woff'),
+            url('Droulers_WEB_TEST-Italic.woff2') format('woff2'),
+}
