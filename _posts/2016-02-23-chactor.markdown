@@ -2,7 +2,7 @@
 layout: project
 title:  "<em>Sorti de nulle part, c'était écrit, c'est pas un hasard</em>"
 pages: 2016
-category: Chactor digital engraving. 
+category: Marble, 45 × 20 cm, Chactor digital engraving.
 description: >
   Thanks to Facteur Cheval & Sniper.
 
