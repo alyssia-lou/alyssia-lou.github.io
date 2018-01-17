@@ -107,3 +107,13 @@ em {
     font-style: italic;/*
     font-family: "MinotaurSansWeb-Italic", sans-serif;*/
 }
+
+// Font tests
+
+@font-face {
+  font-family: 'Ostia_Antica_WEB_TEST-Regular';
+  src: url('../assets/Ostia_Antica_WEB_TEST-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../assets/Ostia_Antica_WEB_TEST-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/Ostia_Antica_WEB_TEST-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/Ostia_Antica_WEB_TEST-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+}
