@@ -4,7 +4,7 @@ title:  "The Dentrey Rock Festival"
 pages: 2017
 category: Edition, 37,5 × 52 cm, 64 pages. <a href="mailto:contact@alyssialou.com">Buy?</a>
 description: >
-  The Dentrey Rock Festival is a music festival that should have happened in the year of 1975, but unfortunately had to be cancelled due to the rise of the Khmers Rouges. Phnom Penh should have welcomed this massive event in its magnificient Olympic Stadium. The festival was officially cancelled when Pol Pot and the Khmers rouges captured the city, on the April 17th, 1975.
+  The Dentrey Rock Festival is a music festival that should have happened in the year of 1975, but unfortunately had to be cancelled due to the rise of the Khmers Rouges. Phnom Penh would have welcomed this massive event in its magnificient Olympic Stadium. The festival was officially cancelled when Pol Pot and the Khmers rouges captured the city, on the April 17th, 1975.
   
 images:
     - dentrey-festival/cover.jpg
