@@ -104,8 +104,8 @@ a {
 
 // Italic
 em {
-    font-style: italic;/*
-    font-family: "MinotaurSansWeb-Italic", sans-serif;*/
+    font-style: italic;
+    font-family: "Ostia_Antica_WEB_TEST-Italic", sans-serif;
 }
 
 // Font tests
@@ -116,4 +116,12 @@ em {
   src: url('../assets/fonts/Ostia_Antica_WEB_TEST-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../assets/fonts/Ostia_Antica_WEB_TEST-Regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('../assets/fonts/Ostia_Antica_WEB_TEST-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Ostia_Antica_WEB_TEST-Italic';
+  src: url('../assets/fonts/Ostia_Antica_WEB_TEST-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/Ostia_Antica_WEB_TEST-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/Ostia_Antica_WEB_TEST-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/Ostia_Antica_WEB_TEST-Italic.woff') format('woff'), /* Pretty Modern Browsers */
 }
