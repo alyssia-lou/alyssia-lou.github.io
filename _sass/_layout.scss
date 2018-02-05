@@ -13,12 +13,14 @@
 .big-title {
     margin: 0;
     text-decoration: none;
-    font-size: $italic-font-family;
+    font-size: $base-font-size;
+    font-family: $italic-font-family;
 }
 
 .block-title {
     margin: 0;
-    font-size: $italic-font-family;
+    font-size: $base-font-size;
+    font-family: $italic-font-family;
 }
 
 .block-body {
