@@ -2,7 +2,7 @@
 layout: project
 title:  "Grapus.fr"
 pages: 2015
-category: Website, Exhibition by Syndicat <em>Rapus</em>.
+category: Website, Exhibited at <em>Rapus</em> by Syndicat.
 description: >
   Peu documenté, enseigné, relayé, le travail du collectif de graphistes nommé Grapus est souvent méconnu des générations actuelles d’étudiants. Partant du constat qu’aucun site ne leur est dédié, j’ai acheté le nom de domaine grapus.fr et réalisé leur site internet.
 images:

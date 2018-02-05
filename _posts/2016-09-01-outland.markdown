@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  "Outland × Å"
-category: Beer invite.
+title:  "Outland Beer"
+category: Tag invite for Outland's Prima Stagione beer.
 pages: 2016
 description: >
   Thanks [Åbäke](https://www.google.fr/search?q=abake+graphic+design&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwinnJiDyqvTAhXByRoKHXiuCegQ_AUICCgB){:target="_blank"}.
