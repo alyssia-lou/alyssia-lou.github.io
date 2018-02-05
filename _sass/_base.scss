@@ -105,17 +105,6 @@ a {
 
 // Italic
 em {
-    font-style: normal;/*
-    font-family: "Ostia_Antica_WEB_TEST-Italic", sans-serif;*/
-}
-
-// Font tests
-
-
-@font-face {
-  font-family: 'Ostia_Antica_WEB_TEST-Italic';
-  src: url('../assets/fonts/Ostia_Antica_WEB_TEST-Italic.eot'); /* IE9 Compat Modes */
-  src: url('../assets/fonts/Ostia_Antica_WEB_TEST-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../assets/fonts/Ostia_Antica_WEB_TEST-Italic.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../assets/fonts/Ostia_Antica_WEB_TEST-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+    font-style: italic;
+    font-family: "OstiaAntica-Italic_WEB", sans-serif;
 }
