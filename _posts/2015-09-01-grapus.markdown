@@ -4,7 +4,8 @@ title:  "Grapus.fr"
 pages: 2015
 category: Website, Exhibited at <em>Rapus</em> by Syndicat.
 description: >
-  Peu documenté, enseigné, relayé, le travail du collectif de graphistes nommé Grapus est souvent méconnu des générations actuelles d’étudiants. Partant du constat qu’aucun site ne leur est dédié, j’ai acheté le nom de domaine grapus.fr et réalisé leur site internet.
+  Poorly documented, the socially engaged collective of graphic artists Grapus (1970-1990) is often unknown to current generations. Grapus doesn’t have any recognition on the web. So I made their website and created their Instagram and Twitter profile, and also their Facebook fanpage. The website has been taken down, at the request of Grapus members.
+  
 images:
     - grapus/cover.jpg
 ---
