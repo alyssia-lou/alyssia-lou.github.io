@@ -1,8 +1,9 @@
 ---
 layout: project
-title:  "<em>Typography can change the world… just kidding</em>"
+title:  "Typography can change the world… just kidding"
 pages: 2016
 
 images:
     - relax/01.jpg
+    
 ---

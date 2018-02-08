@@ -7,4 +7,5 @@ description: >
   With <a href="http://www.twelve.la" target="_blank">Twelve</a>. Photography by Lewis Ronald.
 images:
     - hepworth/cover.jpg
+    
 ---
