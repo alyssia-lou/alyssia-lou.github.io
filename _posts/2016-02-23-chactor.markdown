@@ -7,6 +7,6 @@ description: >
   Thanks to Sharon, Quentin, Facteur Cheval & Sniper.
 
 images:
-    - chactor/01.jpg
+    - chactor/cover.jpg
     
 ---
