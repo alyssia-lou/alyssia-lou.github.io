@@ -1,41 +1,49 @@
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" integrity="sha256-JklDYODbg0X+8sPiKkcFURb5z7RvlNMIaE3RA2z97vw="
-  crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js" integrity="sha256-JklDYODbg0X+8sPiKkcFURb5z7RvlNMIaE3RA2z97vw=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
 <script type="text/javascript">
-  $(document).ready(function () {
+    $(document).ready(function() {
 
-    // smooth scroll
-    $("#topButton").click(function(e) {
-      e.preventDefault();
-      $('html, body').animate({
-        scrollTop: $("#top").offset().top
-      }, 1000);
-    });
+        // smooth scroll
+        $("#topButton").click(function(e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $("#top").offset().top
+            }, 1000);
+        });
 
-    // create carousels
-    $('.project-images').slick({
-      lazyLoad: 'ondemand',
-      arrows: true,
-      mobileFirst: true,
-      dots: true,
-      dotsClass: 'custom_paging',
-      customPaging: function (slider, i) {
-        return  (i + 1) + '  &nbsp;&nbsp;&nbsp; of  &nbsp;&nbsp;&nbsp;  ' + slider.slideCount;
-      }
+        // create carousels
+        $('.project-images').slick({
+            lazyLoad: 'ondemand',
+            arrows: true,
+            mobileFirst: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+            dots: true,
+            dotsClass: 'custom_paging',
+            customPaging: function(slider, i) {
+                return (i + 1) + '  &nbsp;&nbsp;&nbsp; of  &nbsp;&nbsp;&nbsp;  ' + slider.slideCount;
+            }
+        });
+
     });
-    
-  });
 </script>
 <!-- Google Analytics -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-26763534-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-26763534-1', 'auto');
+    ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
