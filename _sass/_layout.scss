@@ -101,12 +101,12 @@
 
 .slick-prev {
     left: 0;
-    cursor: pointer;
+    cursor: url('../assets/images/arrow.png'), auto;
 }
 
 .slick-next {
     right: 0;
-    cursor: pointer;
+    cursor: url('../assets/images/arrow.png'), auto;
 }
 
 .custom_paging {
