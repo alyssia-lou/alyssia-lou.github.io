@@ -10,7 +10,7 @@
       {% if project.category %}<li>{{ project.category }}</li>{% endif %}
       {% if project.size %}<li>{{ project.size }}</li>{% endif %}
     </ul>
-    <p>{{ project.description | markdownify }}</p>
+    <p class="project-info">{{ project.description | markdownify }}</p>
 
     <div class="project-images" data-cycle-loader="wait">
       {% for image in project.images %}
