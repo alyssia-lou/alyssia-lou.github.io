@@ -145,12 +145,11 @@
 ::-webkit-scrollbar-thumb {
     background-color: #FFF;
     background-image: -webkit-linear-gradient(90deg,
-    rgba(247, 60, 60, 1) 0%,
-    rgba(247, 60, 60, 1) 25%,
+    rgba(204, 204, 204, 1) 0%,
+    rgba(204, 204, 204, 1) 25%,
     transparent 100%,
-    rgba(247, 60, 60, 1) 75%,
+    rgba(204, 204, 204, 1) 75%,
     transparent);
-    background-image: image('../assets/images/pattern.gif');
 }
 
 
