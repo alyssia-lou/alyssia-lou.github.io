@@ -28,13 +28,13 @@
 .block-body {
     font-size: $base-font-size;
 
-    @media screen and (min-width: $on-laptop){
+    @media screen and (min-width: $on-laptop) {
         /*margin-left: 40px;*/
     }
 }
 
 .project {
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 .project-info {
@@ -45,7 +45,8 @@
 
 .project-images {
 
-    @media screen and (max-width: $on-laptop){/*
+    @media screen and (max-width: $on-laptop) {
+        /*
         margin-left: -$spacing-unit;
         margin-right: -$spacing-unit;*/
     }
@@ -55,14 +56,14 @@
     z-index: 2500;
     margin-bottom: 50px;
 
-    @media screen and (min-width: $on-laptop){
+    @media screen and (min-width: $on-laptop) {
         position: fixed;
         top: 0;
         margin-right: $spacing-unit;
     }
 }
 
-.footer .underline-box{
+.footer .underline-box {
     margin-left: -$spacing-unit;
     width: -webkit-calc(100% + #{$spacing-unit});
     width: calc(100% + #{$spacing-unit})
@@ -79,8 +80,7 @@
 
 .main {
 
-    @media screen and (max-width: $on-laptop){
-    }
+    @media screen and (max-width: $on-laptop) {}
 }
 
 // slick custom css
@@ -91,12 +91,13 @@
     width: 100%;
     transform: none;
     z-index: 2600;
-    @media screen and (max-width: $on-laptop){
+    @media screen and (max-width: $on-laptop) {
         display: none!important;
     }
 }
 
-.slick-next:before, .slick-prev:before {
+.slick-next:before,
+.slick-prev:before {
     content: none;
 }
 
@@ -113,7 +114,7 @@
 .custom_paging {
     margin: 0;
 
-    @media screen and (max-width: $on-laptop){
+    @media screen and (max-width: $on-laptop) {
         margin-right: $spacing-unit;
     }
 }
@@ -127,4 +128,35 @@
 
 .custom_paging li.slick-active {
     display: block;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.6);
+    background-color: #CCCCCC;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+    background-image: -webkit-linear-gradient(90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 25%,
+    transparent 100%,
+    rgba(0, 0, 0, 1) 75%,
+    transparent)
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
