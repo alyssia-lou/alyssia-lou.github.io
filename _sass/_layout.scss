@@ -154,4 +154,11 @@
 
 /* Handle on hover */
 
-::-webkit-scrollbar-thumb:hover {}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #f4f4f4;
+    background-image: -webkit-linear-gradient(90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 25%,
+    transparent 100%,
+    rgba(0, 0, 0, 1) 75%,
+    transparent);}
