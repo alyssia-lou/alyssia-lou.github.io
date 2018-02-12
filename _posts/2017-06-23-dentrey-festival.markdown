@@ -13,7 +13,6 @@ images:
     - dentrey-festival/4_web.jpg
     - dentrey-festival/5_web.jpg
     - dentrey-festival/7_web.jpg
-    - dentrey-festival/8_web.jpg
     - dentrey-festival/9_web.jpg
     - dentrey-festival/10_web.jpg
     - dentrey-festival/11_web.jpg
