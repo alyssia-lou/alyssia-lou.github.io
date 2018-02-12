@@ -7,7 +7,7 @@ images:
     - sunra/01.jpg
     - sunra/02.jpg
     - sunra/03.jpg
-    - sunra/04.jpg
+    - sunra/07.jpg
     - sunra/05.jpg
     - sunra/06.jpg
     
