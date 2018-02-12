@@ -102,11 +102,13 @@
 .slick-prev {
     left: 0;
     cursor: url('../assets/images/arrow.png'), auto;
+    mix-blend-mode: exclusion;
 }
 
 .slick-next {
     right: 0;
     cursor: url('../assets/images/arrow.png'), auto;
+    mix-blend-mode: exclusion;
 }
 
 .custom_paging {
