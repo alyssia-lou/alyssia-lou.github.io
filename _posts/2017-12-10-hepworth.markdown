@@ -6,6 +6,6 @@ category: Graphics for Alina Szapocznikow's exhibition at the Hepworth Wakefield
 description: >
   With <a href="http://www.twelve.la" target="_blank">Twelve</a>. Photography by Lewis Ronald.
 images:
-    - hepworth/cover2.jpg
+    - hepworth/cover3.jpg
     
 ---
