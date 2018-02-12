@@ -40,7 +40,6 @@
 .project-info {
     list-style: none;
     margin-left: 0;
-    width: 60%;
 }
 
 .project-images {
@@ -156,6 +155,4 @@
 
 /* Handle on hover */
 
-::-webkit-scrollbar-thumb:hover {
-    
-}
+::-webkit-scrollbar-thumb:hover {}
