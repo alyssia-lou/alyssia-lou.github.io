@@ -4,7 +4,7 @@ title:  "Alina Szapocznikow: Human Landscapes"
 pages: 2017
 category: Graphics for Alina Szapocznikow's exhibition at the Hepworth Wakefield. 
 description: >
-  With <a href="http://www.twelve.la" target="_blank">Twelve</a>. Exhibition photography by Lewis Ronald. Archive photograph by Marek Holzman, 1960 © Piotr Stanisławski.
+  With <a href="http://www.twelve.la" target="_blank">Twelve</a>. Exhibition photography by Lewis Ronald. Archive photograph by Marek Holzman, 1960 from Piotr Stanisławski collection.
   
 images:
     - hepworth/cover3.jpg
