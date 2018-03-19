@@ -150,7 +150,8 @@
     rgba(204, 204, 204, 1) 0%,
     rgba(204, 204, 204, 1) 25%,
     transparent 100%,
-    rgba(204, 204, 204, 1) 75%,
+    rgba(204, 204, 204, 1) 25%,
+    rgba(204, 204, 204, 1) 0%,
     transparent);
 }
 
@@ -164,4 +165,5 @@
     rgba(0, 0, 0, 1) 25%,
     transparent 100%,
     rgba(0, 0, 0, 1) 75%,
-    transparent);}
+    transparent);
+}
