@@ -27,7 +27,7 @@
 }
 
 .block-body {
-    font-size: $base-font-size;
+    font-size: $small-font-size;
 
     @media screen and (min-width: $on-laptop) {
         /*margin-left: 40px;*/
@@ -70,7 +70,7 @@
 }
 
 .footer .block-body {
-    font-size: 16px;
+    font-size: $small-font-size;
 }
 
 .container-fluid {
