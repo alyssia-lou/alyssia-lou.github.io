@@ -2,11 +2,10 @@
 
 <article class="project">
 
-  <h2 class="block-title">{{ project.title }} ({{ project.pages }})</h2>
+  <h2 class="block-title">{{ project.title }} <span class="project-date">({{ project.pages }})</span></h2>
   <div class="block-body">
 
     <ul class="project-info">
-      {% if project.pages %}<li>{{ project.pages }}</li>{% endif %}
       {% if project.category %}<li>{{ project.category }}</li>{% endif %}
       {% if project.size %}<li>{{ project.size }}</li>{% endif %}
     </ul>
