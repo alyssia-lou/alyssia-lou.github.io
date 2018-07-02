@@ -134,7 +134,7 @@
     margin: 0;
 
     @media screen and (max-width: $on-laptop) {
-        margin-right: $spacing-unit;
+        padding-left: $spacing-unit;
     }
 }
 
