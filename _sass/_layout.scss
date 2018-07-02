@@ -139,7 +139,7 @@
 }
 
 .custom_paging li {
-    font-size: $base-font-size;
+    font-size: $small-font-size;
     padding-top: $spacing-unit/2;
     text-align: left;
     display: none;
@@ -150,12 +150,12 @@
 }
 
 ::-webkit-scrollbar {
-    width: 40px;
+    width: $spacing-unit * 4;
     background-color: $background-color;
 
 
     @media screen and (max-width: $on-laptop) {
-        width: 2rem;
+        width: $spacing-unit;
     }
 }
 
