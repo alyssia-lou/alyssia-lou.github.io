@@ -7,7 +7,6 @@ description: >
   With <a href="http://www.twelve.la" target="_blank">Twelve</a>. Exhibition photography by Lewis Ronald. Archive photograph by Marek Holzman in 1960 from Piotr Stanisławski collection.
   
 images:
-    - hepworth/03.jpg
-    - hepworth/02.jpg
+    - hepworth/cover3.jpg
     
 ---
