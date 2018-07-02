@@ -42,7 +42,7 @@
 .project-info {
     list-style: none;
     margin-left: 0;
-    
+
 
     @media screen and (max-width: $on-laptop) {
         padding-left: 1rem;
@@ -144,6 +144,11 @@
 ::-webkit-scrollbar {
     width: 40px;
     background-color: $background-color;
+
+
+    @media screen and (max-width: $on-laptop) {
+        width: 2rem;
+    }
 }
 
 /* Track */
