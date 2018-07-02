@@ -31,7 +31,6 @@
     padding-left: $spacing-unit;
 
     @media screen and (max-width: $on-laptop) {
-
         padding-left: 0;
     }
 }
@@ -43,10 +42,15 @@
 .project-info {
     list-style: none;
     margin-left: 0;
+    
+
+    @media screen and (max-width: $on-laptop) {
+        padding-left: 1rem;
+    }
 }
 
 .project-images {
-    margin-top: 18px;
+    margin-top: $spacing-unit / 2;
     @media screen and (max-width: $on-laptop) {
         /*
         margin-left: -$spacing-unit;
@@ -78,6 +82,10 @@
 .container-fluid {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+
+    @media screen and (max-width: $on-laptop) {
+        padding: 0;
+    }
 }
 
 .main {
