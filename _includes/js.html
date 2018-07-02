@@ -18,12 +18,12 @@
             arrows: true,
             mobileFirst: true,
             speed: 500,
-            fade: true,
+            fade: false,
             cssEase: 'linear',
             dots: true,
             dotsClass: 'custom_paging',
             customPaging: function(slider, i) {
-                return (i + 1) + '  &nbsp;&nbsp; of  &nbsp;&nbsp;  ' + slider.slideCount;
+                return (i + 1) + '  &nbsp;&nbsp;  of  &nbsp;&nbsp;  ' + slider.slideCount;
             }
         });
 
