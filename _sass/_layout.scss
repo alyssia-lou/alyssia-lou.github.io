@@ -28,9 +28,11 @@
 
 .block-body {
     font-size: $small-font-size;
+    padding-left: $spacing-unit;
 
-    @media screen and (min-width: $on-laptop) {
-        /*margin-left: 40px;*/
+    @media screen and (max-width: $on-laptop) {
+
+        padding-left: 0;
     }
 }
 
