@@ -45,6 +45,11 @@
 
 .project {
     margin-bottom: 6rem;
+    padding-right: 1rem;
+    
+    @media screen and (max-width: $on-laptop) {
+        padding-right: 0rem;
+    }
 }
 
 .project-date {
@@ -154,7 +159,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: $spacing-unit * 4;
+    width: $spacing-unit * 2;
     background-color: $background-color;
 
 
