@@ -14,7 +14,7 @@ a {
 }
 
 header {
-    padding: 1.5rem;
+    padding: 1.5rem 0 0 1.5rem;
     cursor: pointer;
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
@@ -221,13 +221,12 @@ input[type="number"]:focus {
 @media screen and (max-width: 775px) {
 
     #description {
-        width: 86vw;
-        padding: 1.5rem;
-        font-size: 2rem;
+        width: 98vw;
+        font-size: 1.5rem;
     }
 
     ul {
-        padding-left: 2rem;
+        font-size: 1rem;
     }
     #newsletter {
         padding: 1rem;
