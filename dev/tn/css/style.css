@@ -219,7 +219,10 @@ input[type="number"]:focus {
 }
 
 @media screen and (max-width: 775px) {
-
+    header {
+        padding: 1rem 0 0 1rem;
+        
+    }
     #description {
         width: 98vw;
         font-size: 1.5rem;
