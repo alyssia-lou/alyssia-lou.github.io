@@ -6,6 +6,8 @@ html {
     background-size: cover;
     color: white;
 }
+::-moz-selection { background: none; }
+::selection { background: none;  }
 
 a {
     color: white;
