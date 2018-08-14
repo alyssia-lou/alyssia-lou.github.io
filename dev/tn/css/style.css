@@ -116,7 +116,7 @@ video {
 }
 #contact a {
     left: 2rem;
-    bottom: 2.4rem;
+    bottom: 2rem;
     mix-blend-mode: overlay;
     font-size: 1rem;
     position: absolute;
@@ -134,7 +134,7 @@ video {
 
 
 #newsletter {
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
     position: absolute;
     bottom: 0;
     right: 2rem;
