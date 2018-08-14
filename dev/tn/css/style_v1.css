@@ -1,8 +1,7 @@
 body,
 html {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Spectral', serif;
     margin: 0;
-    -webkit-font-smoothing: antialiased;
     overflow: hidden;
     background-size: cover;
     color: white;
@@ -30,7 +29,25 @@ header {
     animation: fadein 2s;
 }
 
+header span.name {
+    display: block;
 
+}
+
+header:hover span.name {
+    display: none;
+
+}
+
+header span.mail {
+    display: none;
+
+}
+
+header:hover span.mail {
+    display: block;
+
+}
 
 @keyframes fadein {
     from {
@@ -99,6 +116,7 @@ header {
 ul {
     padding-left: 0;
     margin: 0;
+    font-family: 'Spectral SC', serif;
     font-size: 1.5rem;
     padding-top: 1rem;
     list-style-type: none;
@@ -114,30 +132,12 @@ video {
     object-position: center;
     z-index: -1;
 }
-#contact a {
-    left: 2rem;
-    bottom: 2.4rem;
-    mix-blend-mode: overlay;
-    font-size: 1rem;
-    position: absolute;
-    -webkit-animation: fadein 2s;
-    /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s;
-    /* Firefox < 16 */
-    -ms-animation: fadein 2s;
-    /* Internet Explorer */
-    -o-animation: fadein 2s;
-    /* Opera < 12.1 */
-    animation: fadein 2s;
-}
-
-
 
 #newsletter {
+    padding-left: 2rem;
     padding-bottom: 2rem;
     position: absolute;
     bottom: 0;
-    right: 2rem;
     mix-blend-mode: overlay;
 
     -webkit-animation: fadein 2s;
@@ -160,6 +160,7 @@ input[type="email"],
 input[type="tel"],
 input[type="password"],
 input[type="number"] {
+    font-family: 'Spectral';
     color: white;
     font-size: 1rem;
     width: 20vw;
@@ -180,6 +181,7 @@ input[type="submit"] {
     color: white;
     font-size: 1rem;
     display: inline-block;
+    font-family: 'Spectral';
     line-height: 1;
     cursor: pointer;
     background: none;
@@ -234,14 +236,8 @@ input[type="number"]:focus {
     ul {
         font-size: 1rem;
     }
-    #contact a {
-        left: 1rem;
-        bottom: 4rem;
-    }
     #newsletter {
-        left: 1rem;
-        bottom: 0;
-        padding-bottom: 1rem;
+        padding: 1rem;
     }
 
     select,
