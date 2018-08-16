@@ -1,0 +1,33 @@
+/* -------------------------------- 
+
+Delphine Roque
+www.delphineroque.com
+Website credits: www.alyssialou.com
+
+-------------------------------- */
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    position: fixed;
+    width: 300px;
+    left: 30vw;
+    top: 30vh;
+    transform: rotate(-10deg);
+}
+
+/* Mobile */
+
+@media only screen and (max-device-width: 480px) {
+
+    img {
+        position: relative;
+        width: 100vw;
+        left: 0;
+        top: 23vh;
+    }
+}
