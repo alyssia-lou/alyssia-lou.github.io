@@ -293,7 +293,7 @@ input[type="number"]:focus {
         width: 84vw;
         font-size: .8rem;
         left: 0;
-        height: .8rem;
+        height: 1rem;
         padding-bottom: .1rem;
     }
 
