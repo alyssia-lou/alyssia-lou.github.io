@@ -261,7 +261,7 @@ input[type="number"]:focus {
     #contact a {
         left: 1rem;
         width: 100vw;
-        bottom: 6rem;
+        bottom: 5rem;
     }
     #newsletter {
         left: 1rem;
@@ -286,7 +286,7 @@ input[type="number"]:focus {
         font-size: 1rem;
     }
     #mc_embed_signup_scroll .clear {
-        bottom: 3rem;
+        bottom: 2.3rem;
     }
 }
 
