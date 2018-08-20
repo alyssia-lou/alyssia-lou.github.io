@@ -92,7 +92,7 @@ header {
     right: 0;
     margin: auto;
     line-height: 1.1;
-    width: 600px;
+    width: 100vw;
     mix-blend-mode: overlay;
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
@@ -256,7 +256,7 @@ input[type="number"]:focus {
 
 @media screen and (max-width: 790px) {
     a {
-        font-size: 1rem;
+        font-size: .8rem;
     }
     header {
         padding: 0.3rem 0 0 1rem;
@@ -265,16 +265,16 @@ input[type="number"]:focus {
     #description {
         width: 100%;
         top: 52%;
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
     ul {
-        font-size: 1rem;
+        font-size: .8rem;
     }
     #contact a {
         left: 1rem;
         width: 100vw;
-        bottom: 5rem;
+        bottom: 4rem;
     }
     #newsletter {
         left: 1rem;
@@ -291,16 +291,16 @@ input[type="number"]:focus {
     input[type="password"],
     input[type="number"] {
         width: 84vw;
-        font-size: 1rem;
+        font-size: .8rem;
         left: 0;
     }
 
     input[type="submit"] {
         text-align: left;
-        font-size: 1rem;
+        font-size: .8rem;
     }
     #mc_embed_signup_scroll .clear {
-        bottom: 2rem;
+        bottom: 1.6rem;
         left: 0;
     }
 
@@ -312,7 +312,7 @@ input[type="number"]:focus {
 @media screen and (max-width: 1080px) {
 
     #description {
-        width: 74vw;
+        width: 100vw;
     }
 
 }
