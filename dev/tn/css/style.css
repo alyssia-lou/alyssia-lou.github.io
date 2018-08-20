@@ -22,7 +22,7 @@ a {
 }
 
 header {
-    padding: 1.5rem 0 0 1.5rem;
+    padding: 2rem 0 0 1.5rem;
     cursor: pointer;
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
@@ -111,14 +111,14 @@ video {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 103vh;
     object-fit: cover;
     object-position: center;
     z-index: -1;
 }
 #contact a {
     left: 2rem;
-    bottom: 2rem;
+    bottom: 1rem;
     mix-blend-mode: overlay;
     font-size: 1rem;
     position: absolute;
@@ -136,7 +136,7 @@ video {
 
 
 #newsletter {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     position: absolute;
     bottom: 0;
     right: 2rem;
@@ -165,7 +165,7 @@ input[type="number"] {
     color: white;
     font-family: marsextendedweb-regular-TRIAL;
     font-size: 1rem;
-    width: 20vw;
+    width: 25vw;
     line-height: 1;
     background: none;
     border: 1px solid white;
@@ -231,7 +231,7 @@ input[type="number"]:focus {
         
     }
     #description {
-        width: 98vw;
+        width: 70vw;
         font-size: 1rem;
     }
 
@@ -265,7 +265,7 @@ input[type="number"]:focus {
 @media screen and (max-width: 1080px) {
 
     #description {
-        width: 67vw;
+        width: 67\8vw;
     }
 
 }
