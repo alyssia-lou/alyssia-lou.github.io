@@ -296,6 +296,7 @@ input[type="number"]:focus {
         font-size: .8rem;
         left: 0;
         height: .8rem;
+        padding-bottom: .1rem;
     }
 
     input[type="submit"] {
