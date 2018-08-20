@@ -160,14 +160,26 @@ video {
 
 }
 
+#mc_embed_signup_scroll {
+    width: 325px;
+    right: 0;
+
+}
+
+#mc_embed_signup_scroll .email {
+    width: 325px;
+    right: 0;
+
+}
+
 #mc_embed_signup_scroll .clear {
     bottom: 3.7rem;
-    
     position: absolute;
-    display: block;
+    right: 0;
     height: 1.5rem;
-    
+
 }
+
 select,
 textarea,
 button,
@@ -179,11 +191,11 @@ input[type="number"] {
     color: white;
     font-family: marsextendedweb-regular-TRIAL;
     font-size: 1.3rem;
-    width: 25vw;
     background: none;
     border: 0;
     margin: 0;
-    height: 1.8rem;
+    padding-bottom: .3rem;
+    height: 1rem;
     cursor: pointer;
     border-radius: 0;
     -webkit-appearance: none;
@@ -206,9 +218,9 @@ input[type="submit"] {
 
 input[type="submit"]:focus {
     border: 0px;
-    outline:0;
-    padding:0;
-    
+    outline: 0;
+    padding: 0;
+
 }
 
 select:focus,
@@ -234,6 +246,7 @@ input[type="number"]:focus {
 :-ms-input-placeholder {
     color: white;
 }
+
 /*
 
 .clear {
@@ -250,8 +263,8 @@ input[type="number"]:focus {
 
     }
     #description {
-        width: 96vw;
-        top: 50%;
+        width: 100%;
+        top: 52%;
         font-size: 1rem;
     }
 
@@ -279,6 +292,7 @@ input[type="number"]:focus {
     input[type="number"] {
         width: 84vw;
         font-size: 1rem;
+        left: 0;
     }
 
     input[type="submit"] {
@@ -286,8 +300,11 @@ input[type="number"]:focus {
         font-size: 1rem;
     }
     #mc_embed_signup_scroll .clear {
-        bottom: 2.3rem;
+        bottom: 2rem;
+        left: 0;
     }
+
+
 }
 
 
@@ -295,7 +312,7 @@ input[type="number"]:focus {
 @media screen and (max-width: 1080px) {
 
     #description {
-        width: 80vw;
+        width: 60vw;
     }
 
 }
