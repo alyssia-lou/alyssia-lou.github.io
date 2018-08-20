@@ -13,8 +13,14 @@ html {
     color: white;
     font-size: 1.4rem;
 }
-::-moz-selection { background: none; }
-::selection { background: none;  }
+
+::-moz-selection {
+    background: none;
+}
+
+::selection {
+    background: none;
+}
 
 a {
     color: white;
@@ -78,8 +84,8 @@ header {
 
 #description {
     position: absolute;
-	top: 53%;
-	transform: translateY(-53%);
+    top: 53%;
+    transform: translateY(-53%);
     bottom: 0;
     text-align: center;
     left: 0;
@@ -111,11 +117,12 @@ video {
     top: 0;
     left: 0;
     width: 100%;
-    height: 103vh;
+    height: 100vh;
     object-fit: cover;
     object-position: center;
     z-index: -1;
 }
+
 #contact a {
     left: 2rem;
     bottom: 2rem;
@@ -154,6 +161,12 @@ video {
 
 }
 
+#mc_embed_signup_scroll .clear {
+    bottom: 5rem;
+    display: block;
+    height: 1.5rem;
+    
+}
 select,
 textarea,
 button,
@@ -182,9 +195,11 @@ input[type="submit"] {
     border: 0px;
     color: white;
     font-size: 1rem;
-    display: inline-block;
-    line-height: 1;
-    text-align: right;
+    display: block;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+    padding: 0;
     cursor: pointer;
     background: none;
     font-family: marsextendedweb-regular-TRIAL;
@@ -218,21 +233,24 @@ input[type="number"]:focus {
 :-ms-input-placeholder {
     color: white;
 }
+/*
 
 .clear {
     display: inline-block;
 }
+*/
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 790px) {
     a {
         font-size: 1rem;
     }
     header {
-        padding: 1rem 0 0 1rem;
-        
+        padding: 0.3rem 0 0 1rem;
+
     }
     #description {
-        width: 80vw;
+        width: 96vw;
+        top: 50%;
         font-size: 1rem;
     }
 
@@ -241,7 +259,8 @@ input[type="number"]:focus {
     }
     #contact a {
         left: 1rem;
-        bottom: 4rem;
+        width: 100vw;
+        bottom: 6rem;
     }
     #newsletter {
         left: 1rem;
@@ -257,7 +276,11 @@ input[type="number"]:focus {
     input[type="tel"],
     input[type="password"],
     input[type="number"] {
-        width: 50vw;
+        width: 84vw;
+    }
+
+    input[type="submit"] {
+        text-align: left;
     }
 }
 
@@ -266,7 +289,7 @@ input[type="number"]:focus {
 @media screen and (max-width: 1080px) {
 
     #description {
-        width: 67\8vw;
+        width: 80vw;
     }
 
 }
