@@ -84,8 +84,8 @@ header {
 
 #description {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 55%;
+    transform: translateY(-55%);
     bottom: 0;
     text-align: center;
     left: 0;
@@ -116,8 +116,8 @@ ul {
 
 #detail1 {
     position: absolute;
-    top: 70%;
-    transform: translateY(-70%);
+    top: 65%;
+    transform: translateY(-65%);
     left: 2rem;
     right: 2rem;
     text-align: center;
