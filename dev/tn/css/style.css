@@ -28,7 +28,7 @@ a {
 }
 
 header {
-    padding: 1.5rem 0 0 1.5rem;
+    padding: 1.5rem 0 0 2rem;
     cursor: pointer;
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
@@ -84,8 +84,8 @@ header {
 
 #description {
     position: absolute;
-    top: 53%;
-    transform: translateY(-53%);
+    top: 50%;
+    transform: translateY(-50%);
     bottom: 0;
     text-align: center;
     left: 0;
@@ -104,12 +104,42 @@ header {
     /* Opera < 12.1 */
     animation: fadein 2s;
 }
+/*
 
 ul {
     padding-left: 0;
     margin: 0;
     padding-top: 2rem;
     list-style-type: none;
+}
+*/
+
+#detail1 {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-70%);
+    left: 2rem;
+    right: 2rem;
+    text-align: center;
+    margin: auto;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+#detail2 {
+    position: absolute;
+    top: 1.5rem;
+    top: 47%;
+    transform: translateY(-47%);
+    font-size: .8rem;
+    right: 2rem;
 }
 
 video {
@@ -173,7 +203,7 @@ video {
 }
 
 #mc_embed_signup_scroll .clear {
-    bottom: 3.7rem;
+    bottom: 4.1rem;
     position: absolute;
     right: 0;
     height: 1.5rem;
@@ -193,9 +223,9 @@ input[type="number"] {
     font-size: 1.3rem;
     background: none;
     height: 1.4rem;
-    border: 0;
+    border: 1px solid white;
     margin: 0;
-    padding-bottom: .2rem;
+    padding: .2rem;
     cursor: pointer;
     border-radius: 0;
     -webkit-appearance: none;
@@ -231,8 +261,6 @@ input[type="tel"]:focus,
 input[type="password"]:focus,
 input[type="number"]:focus {
     outline: 0;
-    margin-bottom: -1px;
-    border-bottom: 1px solid white;
 }
 
 ::-webkit-input-placeholder {
@@ -264,17 +292,28 @@ input[type="number"]:focus {
     }
     #description {
         width: 100%;
-        top: 52%;
+        top: 60%;
+        transform: translateY(-60%);
         font-size: .8rem;
     }
 
     ul {
         font-size: .8rem;
     }
+    #detail1 {
+        font-size: .8rem;
+        left: 1rem;
+        bottom: 8rem;
+    }
+    #detail2 {
+        font-size: .8rem;
+        left: 1rem;
+        bottom: 7rem;
+    }
     #contact a {
         left: 1rem;
         width: 100vw;
-        bottom: 4rem;
+        bottom: 4.5rem;
     }
     #newsletter {
         left: 1rem;
@@ -293,9 +332,8 @@ input[type="number"]:focus {
         width: 84vw;
         font-size: .8rem;
         left: 0;
-        padding-left: 0;
         height: 1rem;
-        padding-bottom: .1rem;
+        padding-bottom: .3rem;
     }
 
     input[type="submit"] {
@@ -303,8 +341,9 @@ input[type="number"]:focus {
         font-size: .8rem;
     }
     #mc_embed_signup_scroll .clear {
-        bottom: 1.6rem;
+        bottom: 2.3rem;
         left: 0;
+
     }
 
 
