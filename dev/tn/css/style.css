@@ -11,7 +11,7 @@ html {
     overflow: hidden;
     background-size: cover;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 ::-moz-selection {
@@ -30,79 +30,21 @@ a {
 header {
     padding: 1.5rem 0 0 2rem;
     cursor: pointer;
-    -webkit-animation: fadein 2s;
-    /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s;
-    /* Firefox < 16 */
-    -ms-animation: fadein 2s;
-    /* Internet Explorer */
-    -o-animation: fadein 2s;
-    /* Opera < 12.1 */
-    animation: fadein 2s;
 }
 
 
-
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes fadein {
-    /* Firefox */
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadein {
-    /* Safari and Chrome */
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadein {
-    /* Opera */
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 
 #description {
     position: absolute;
     top: 55%;
     transform: translateY(-55%);
     bottom: 0;
-    text-align: center;
-    left: 0;
+    text-align: left;
+    left: 2rem;
     right: 0;
     margin: auto;
     line-height: 1.1;
     width: 100vw;
-    mix-blend-mode: overlay;
-    -webkit-animation: fadein 2s;
-    /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s;
-    /* Firefox < 16 */
-    -ms-animation: fadein 2s;
-    /* Internet Explorer */
-    -o-animation: fadein 2s;
-    /* Opera < 12.1 */
-    animation: fadein 2s;
 }
 /*
 
@@ -116,31 +58,14 @@ ul {
 
 #detail1 {
     position: absolute;
-    top: 65%;
-    transform: translateY(-65%);
+    top: 60%;
+    transform: translateY(-60%);
     left: 2rem;
     right: 2rem;
-    text-align: center;
+    text-align: left;
     margin: auto;
-    -webkit-animation: fadein 2s;
-    /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s;
-    /* Firefox < 16 */
-    -ms-animation: fadein 2s;
-    /* Internet Explorer */
-    -o-animation: fadein 2s;
-    /* Opera < 12.1 */
-    animation: fadein 2s;
 }
 
-#detail2 {
-    position: absolute;
-    top: 1.5rem;
-    top: 47%;
-    transform: translateY(-47%);
-    font-size: .8rem;
-    right: 2rem;
-}
 
 video {
     position: absolute;
@@ -156,17 +81,7 @@ video {
 #contact a {
     left: 2rem;
     bottom: 2rem;
-    mix-blend-mode: overlay;
     position: absolute;
-    -webkit-animation: fadein 2s;
-    /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s;
-    /* Firefox < 16 */
-    -ms-animation: fadein 2s;
-    /* Internet Explorer */
-    -o-animation: fadein 2s;
-    /* Opera < 12.1 */
-    animation: fadein 2s;
 }
 
 
@@ -175,30 +90,21 @@ video {
     padding-bottom: 2rem;
     position: absolute;
     bottom: 0;
-    right: 2.5rem;
-    mix-blend-mode: overlay;
-
-    -webkit-animation: fadein 2s;
-    /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 2s;
-    /* Firefox < 16 */
-    -ms-animation: fadein 2s;
-    /* Internet Explorer */
-    -o-animation: fadein 2s;
-    /* Opera < 12.1 */
-    animation: fadein 2s;
+    right: 2rem;
 
 }
 
 #mc_embed_signup_scroll {
-    width: 325px;
+    width: 350px;
     right: 0;
 
 }
 
 #mc_embed_signup_scroll .email {
-    width: 325px;
+
+    bottom: 2rem;
     right: 0;
+    position: absolute;
 
 }
 
@@ -220,9 +126,10 @@ input[type="password"],
 input[type="number"] {
     color: white;
     font-family: marsextendedweb-regular-TRIAL;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     background: none;
     height: 1.4rem;
+    width: 365px;
     border: 1px solid white;
     margin: 0;
     padding: .2rem;
@@ -234,7 +141,7 @@ input[type="number"] {
 input[type="submit"] {
     border: 0px;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     display: block;
     line-height: 1.2;
     text-align: left;
@@ -295,6 +202,7 @@ input[type="number"]:focus {
         top: 60%;
         transform: translateY(-60%);
         font-size: .8rem;
+        left: 1rem;
     }
 
     ul {
@@ -303,7 +211,7 @@ input[type="number"]:focus {
     #detail1 {
         font-size: .8rem;
         left: 1rem;
-        bottom: 8rem;
+        bottom: 4rem;
     }
     #detail2 {
         font-size: .8rem;
@@ -313,7 +221,7 @@ input[type="number"]:focus {
     #contact a {
         left: 1rem;
         width: 100vw;
-        bottom: 4.5rem;
+        bottom: 5rem;
     }
     #newsletter {
         left: 1rem;
@@ -329,19 +237,23 @@ input[type="number"]:focus {
     input[type="tel"],
     input[type="password"],
     input[type="number"] {
-        width: 84vw;
+        width: 85vw;
         font-size: .8rem;
         left: 0;
         height: 1rem;
         padding-bottom: .3rem;
+        bottom: 1rem;
     }
 
     input[type="submit"] {
         text-align: left;
         font-size: .8rem;
     }
+    #mc_embed_signup_scroll .email {
+        bottom: 1rem;
+    }
     #mc_embed_signup_scroll .clear {
-        bottom: 2.3rem;
+        bottom: 2.5rem;
         left: 0;
 
     }
