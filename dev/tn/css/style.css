@@ -217,7 +217,7 @@ input[type="number"]:focus {
         top:77vh !important;
         transform: translateY(-46vh)!important;
         font-size: 6vw !important;
-        left: 4vw;
+        left: 0;
     }
     #contact a {
         left: 4vw;
