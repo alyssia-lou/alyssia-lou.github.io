@@ -288,7 +288,7 @@ input[type="number"]:focus {
         top: 90vh !important;
         transform: translateY(-50vh)!important;
         font-size: 4vw !important;
-        left: 4vw;
+        left: 0;
     }
     #contact a {
         left: 4vw;
