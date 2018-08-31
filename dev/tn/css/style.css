@@ -266,6 +266,7 @@ input[type="number"]:focus {
 }
 
 
+/* Tablet */
 @media screen and (min-width: 630px) and (max-width: 840px) {
     body {
         width: 100vw;
@@ -316,7 +317,7 @@ input[type="number"]:focus {
         padding: .8vw .8vw .8vw 1vw!important;
         height: 1rem;
         padding-bottom: .3rem;
-        bottom: 1rem;
+        bottom: 4vw;
     }
 
     input[type="submit"] {
@@ -377,10 +378,10 @@ input[type="number"]:focus {
     }
 
     #mc_embed_signup_scroll .email {
-        bottom: 1rem;
+        bottom: 2rem;
     }
     #mc_embed_signup_scroll .clear {
-        bottom: 2.1rem;
+        bottom: 3.1rem;
 
     }
 }
