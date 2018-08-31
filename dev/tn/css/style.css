@@ -196,30 +196,33 @@ input[type="number"]:focus {
 
 @media screen and (max-width: 790px) {
     header {
-        padding: 0.6rem 0 0 1rem;
+        padding: 4vw 0 0 4vw;
+        font-size: 3vw !important;
 
     }
-    #description {
-        width: 50%;
-        top: 45%;
-        transform: translateY(-45%);
-        font-size: .8rem;
-        left: 1rem;
-    }
     #title {
-        left: 1rem;
-        top: 1.5rem;
-        font-size: .8rem;
+        left: 4vw;
+        top: 7.5vw;
+        font-size: 3vw !important;
+    }
+    #description {
+        width: 80vw !important;
+        top: 90vh !important;
+        transform: translateY(-50vh)!important;
+        font-size: 4vw !important;
+        left: 4vw;
     }
     #contact a {
-        left: 1rem;
+        left: 4vw;
+        font-size: 3vw !important;
         width: 100vw;
-        bottom: 5rem;
+        bottom: 20vw;
     }
     #newsletter {
-        left: 1rem;
+        left: 4vw;
         bottom: 0;
-        padding-bottom: 1rem;
+        padding-bottom: 4vw;
+        font-size: 3vw !important;
     }
 
     select,
@@ -230,8 +233,8 @@ input[type="number"]:focus {
     input[type="tel"],
     input[type="password"],
     input[type="number"] {
-        width: 85vw;
-        font-size: .8rem;
+        width: 90vw!important;
+        font-size: 3vw !important;
         left: 0;
         height: 1rem;
         padding-bottom: .3rem;
@@ -240,13 +243,13 @@ input[type="number"]:focus {
 
     input[type="submit"] {
         text-align: left;
-        font-size: .8rem;
+        font-size: 3vw !important;
     }
     #mc_embed_signup_scroll .email {
-        bottom: 1rem;
+        bottom: 4vw;
     }
     #mc_embed_signup_scroll .clear {
-        bottom: 2.2rem;
+        bottom: 7.5vw !important;
         left: 0;
 
     }
