@@ -195,15 +195,20 @@ input[type="number"]:focus {
 */
 
 @media screen and (max-width: 790px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
     header {
         padding: 4vw 0 0 4vw;
-        font-size: 3vw !important;
+        font-size: 4vw !important;
 
     }
     #title {
         left: 4vw;
-        top: 7.5vw;
-        font-size: 3vw !important;
+        top: 9.5vw;
+        font-size: 4vw !important;
     }
     #description {
         width: 80vw !important;
@@ -214,7 +219,7 @@ input[type="number"]:focus {
     }
     #contact a {
         left: 4vw;
-        font-size: 3vw !important;
+        font-size: 4vw !important;
         width: 100vw;
         bottom: 20vw;
     }
@@ -222,7 +227,7 @@ input[type="number"]:focus {
         left: 4vw;
         bottom: 0;
         padding-bottom: 4vw;
-        font-size: 3vw !important;
+        font-size: 4vw !important;
     }
 
     select,
@@ -234,8 +239,9 @@ input[type="number"]:focus {
     input[type="password"],
     input[type="number"] {
         width: 90vw!important;
-        font-size: 3vw !important;
+        font-size: 4vw !important;
         left: 0;
+        padding: .8vw !important;
         height: 1rem;
         padding-bottom: .3rem;
         bottom: 1rem;
@@ -243,13 +249,13 @@ input[type="number"]:focus {
 
     input[type="submit"] {
         text-align: left;
-        font-size: 3vw !important;
+        font-size: 4vw !important;
     }
     #mc_embed_signup_scroll .email {
         bottom: 4vw;
     }
     #mc_embed_signup_scroll .clear {
-        bottom: 7.5vw !important;
+        bottom: 9.5vw !important;
         left: 0;
 
     }
