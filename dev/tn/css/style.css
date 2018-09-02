@@ -291,7 +291,7 @@ input[type="number"]:focus {
         width: 80vw !important;
         max-width: 580px;
         top: 100vh !important;
-        transform: translateY(-65vh)!important;
+        transform: translateY(-66vh)!important;
         font-size: 5vh !important;
         left: 0;
     }
