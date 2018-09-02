@@ -212,7 +212,7 @@ input[type="number"]:focus {
     #title {
         left: 4vw;
         top: 8vw;
-        font-size: 3.24vw !important;
+        font-size: 3.3vw !important;
     }
     #description {
         width: 80vw !important;
@@ -290,6 +290,7 @@ input[type="number"]:focus {
     #description {
         width: 80vw !important;
         top: 85vh !important;
+        max-width: 522px;
         transform: translateY(-50vh)!important;
         font-size: 5vh !important;
         left: 0;
