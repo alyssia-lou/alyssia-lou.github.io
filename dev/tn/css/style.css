@@ -289,9 +289,9 @@ input[type="number"]:focus {
     }
     #description {
         width: 80vw !important;
-        top: 85vh !important;
-        max-width: 522px;
-        transform: translateY(-50vh)!important;
+        max-width: 580px;
+        top: 100vh !important;
+        transform: translateY(-65vh)!important;
         font-size: 5vh !important;
         left: 0;
     }
