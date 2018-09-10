@@ -1,11 +1,13 @@
 @font-face {
-    font-family: marsextendedweb-regular-TRIAL;
-    src: url('../fonts/marsextendedweb-regular-TRIAL.woff');
+font-family: 'mars-extendedregular';
+    src: url('../fonts/marsextendedweb-regular.eot');
+    src: url('../fonts/marsextendedweb-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/marsextendedweb-regular.woff') format('woff');
 }
 
 body,
 html {
-    font-family: marsextendedweb-regular-TRIAL;
+    font-family: mars-extendedregular;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     overflow: hidden;
@@ -130,7 +132,7 @@ input[type="tel"],
 input[type="password"],
 input[type="number"] {
     color: white;
-    font-family: marsextendedweb-regular-TRIAL;
+    font-family: mars-extendedregular;
     font-size: 1rem;
     background: none;
     height: 1.4rem;
@@ -154,7 +156,7 @@ input[type="submit"] {
     padding: 0;
     cursor: pointer;
     background: none;
-    font-family: marsextendedweb-regular-TRIAL;
+    font-family: mars-extendedregular;
     clear: left;
 }
 
