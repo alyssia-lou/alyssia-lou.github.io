@@ -3,7 +3,7 @@
 
 body,
 html {
-    font-family: "Ostia_Antica_WEB";
+    font-family: Times New Roman;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     color: black;
@@ -27,13 +27,6 @@ a {
 
 a:hover {
     color: grey;
-}
-
-em,
-i {
-
-    font-family: 'OstiaAntica-Italic_WEB', sans-serif;
-
 }
 
 
