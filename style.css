@@ -1,0 +1,187 @@
+
+@import url(css/ostia.css);
+
+body,
+html {
+    font-family: "Ostia_Antica_WEB";
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-size: 1rem;
+    
+    line-height: 1.3;
+}
+
+::-moz-selection {
+    background: none;
+}
+
+::selection {
+    background: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+em,
+i {
+
+    font-family: 'OstiaAntica-Italic_WEB', sans-serif;
+
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.slideshow {
+    left: 0;
+    right: 0;
+    z-index: 0;
+    margin: 0 auto;
+    top: 4.5rem;
+    width: 50%;
+}
+.slideshow img {
+    height: 35rem;
+    display: none;
+    cursor: pointer;
+}
+
+
+#contact {
+    top: 1rem;
+    left: 1rem;
+    position: absolute;
+}
+
+
+
+::-moz-placeholder {
+    color: white;
+}
+
+/*
+
+.clear {
+    display: inline-block;
+}
+*/
+
+@media screen and (max-width: 790px) {
+    a {
+        font-size: .8rem;
+    }
+    header {
+        padding: 0.3rem 0 0 1rem;
+
+    }
+    #description {
+        width: 100%;
+        top: 60%;
+        transform: translateY(-60%);
+        font-size: .8rem;
+    }
+
+    ul {
+        font-size: .8rem;
+    }
+    #detail1 {
+        font-size: .8rem;
+        left: 1rem;
+        bottom: 8rem;
+    }
+    #detail2 {
+        font-size: .8rem;
+        left: 1rem;
+        bottom: 7rem;
+    }
+    #contact a {
+        left: 1rem;
+        width: 100vw;
+        bottom: 4.5rem;
+    }
+    #newsletter {
+        left: 1rem;
+        bottom: 0;
+        padding-bottom: 1rem;
+    }
+
+    select,
+    textarea,
+    button,
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"],
+    input[type="number"] {
+        width: 84vw;
+        font-size: .8rem;
+        left: 0;
+        height: 1rem;
+        padding-bottom: .3rem;
+    }
+
+    input[type="submit"] {
+        text-align: left;
+        font-size: .8rem;
+    }
+    #mc_embed_signup_scroll .clear {
+        bottom: 2.3rem;
+        left: 0;
+
+    }
+
+}
+
+
+@media screen and (max-width: 1080px) {
+
+    #description {
+        width: 100vw;
+    }
+
+}
