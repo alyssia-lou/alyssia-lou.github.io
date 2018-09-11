@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Ostia Antica WEB_Regular';
+    src:    url('Ostia_Antica_WEB-Regular.eot');
+    src:    url('Ostia_Antica_WEB-Regular.eot?#iefix') format('embedded-opentype'),
+            url('Ostia_Antica_WEB-Regular.woff') format('woff'),
+            url('Ostia_Antica_WEB-Regular.woff2') format('woff2');
+}

@@ -1,0 +1,11 @@
+---
+layout: project
+title:  "La Doublure"
+pages: 2017
+category: Residency at La Villa Arson, Nice. 
+description: >
+  Curated by Åbäke, Radim Peško, Sofie Dederen & Eric Mangion.
+images:
+    - la-doublure/01.jpg
+    
+---
