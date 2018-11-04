@@ -24,7 +24,7 @@ body {
     font-kerning: normal;
     line-height: $base-line-height;
     margin: 0;
-    overflow-x: hidden; 
+    overflow: hidden; 
     padding: 0;
 }
 
@@ -46,7 +46,7 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
+    max-height: 100%;
     vertical-align: middle;
 }
 

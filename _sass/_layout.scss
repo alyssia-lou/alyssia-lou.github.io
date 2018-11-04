@@ -4,8 +4,12 @@
     padding-right: $spacing-unit;
 }
 .contact{
-    margin-top: .5rem;
-    padding-left: 2rem;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
 }
 
 .underline-box {
