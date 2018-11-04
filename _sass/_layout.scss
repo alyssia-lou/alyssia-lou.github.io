@@ -39,8 +39,8 @@
     }
 }
 
-.block-body {
-    font-size: $small-font-size;/*
+.block-body {/*
+    font-size: $small-font-size;
     padding-left: $spacing-unit * 2;*/
 
     @media screen and (max-width: $on-laptop) {
