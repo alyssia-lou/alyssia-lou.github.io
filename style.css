@@ -94,8 +94,7 @@ body {
     font-feature-settings: "tnum";
 }
 
-::selection {
-}
+::selection {}
 
 /* Links */
 
@@ -113,18 +112,23 @@ a:hover {
 em {
     font-style: italic;
 }
+
 .hyphen {
     bottom: 50px;
     color: red;
 }
+
 .country {
     padding-left: 10px;
 }
+
 /* Design */
+
 #content {
-    font-size: 3.5vw;
+    font-size: 2.8em;
     line-height: 1em;
 }
+
 #project {
     width: 60vw;
     z-index: 100;
@@ -146,38 +150,39 @@ em {
 }
 
 /* More image */
+
 .hiddenimg {
-  display: none;
+    display: none;
 }
 
 .hiddentxt {
-  font-weight: none;
+    font-weight: none;
 }
 
 .hiddentxt a {
-  color: blue;
-  text-decoration: none;
+    color: blue;
+    text-decoration: none;
 }
 
 .hiddenclick {
-  font-weight: none;
-  color: blue;
-  text-decoration: none;
-  cursor: pointer;
+    font-weight: none;
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .hiddenclick a {
-  color: blue;
-  text-decoration: none;
+    color: blue;
+    text-decoration: none;
 }
 
 .hiddenclick a:visited {
-  color: blue;
-  text-decoration: none;
+    color: blue;
+    text-decoration: none;
 }
 
 .hiddentxt:hover ~ .hiddenimg {
-  display: block;
+    display: block;
     position: absolute;
 }
 
@@ -237,17 +242,26 @@ em {
 }
 
 
-@media only screen and (max-width: 900px) {
-    
-#content {
-    font-size: 2.3em;
+
+@media only screen and (min-width: 1367px) {
+
+    #content {
+        font-size:4em;
+    }
 }
+
+
+@media only screen and (max-width: 900px) {
+
+    #content {
+        font-size: 2.3em;
+    }
 }
 
 
 @media only screen and (max-width: 650px) {
-    
-#content {
-    font-size: 1.8em;
-}
+
+    #content {
+        font-size: 1.8em;
+    }
 }
