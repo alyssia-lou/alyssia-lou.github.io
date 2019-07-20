@@ -1,0 +1,16 @@
+---
+layout: project
+title:  "Sun Ra"
+category: Édition
+size: 11,4 × 17,7 cm
+pages: 64
+description: >
+  Recherches sur le musicien Sun Ra.
+images:
+    - sunra/01.jpg
+    - sunra/02.jpg
+    - sunra/03.jpg
+    - sunra/04.jpg
+    - sunra/05.jpg
+    - sunra/06.jpg
+---

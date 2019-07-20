@@ -1,0 +1,26 @@
+---
+layout: project
+title:  "JOMOHOMO"
+category: Édition
+size: 9,7 × 18,6 cm
+pages: 144
+description: >
+  Avec [Åbäke](https://www.google.fr/search?q=abake+graphic+design&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwinnJiDyqvTAhXByRoKHXiuCegQ_AUICCgB){:target="_blank"}.  
+
+  Disponible sur [Dent-de-Leone](http://dentdeleone.co.nz/jomohomo/){:target="_blank"}.  
+
+
+  Jomohomo is a phablet sized book about the artist Ingrid Hora. This project looks at why we both believe in *FOMO (Fear Of Missing Out)*  and *JOMO (Joy Of Missing Out)* since we were freed into the slavery of leisure guilt. Limited to 365 for each edition, Jomohomo is a 24h long publication during which it is not certain we gained anything at having 8 hours of work, 8 hours of rest and… 8 hours of the rest.  
+
+  2016, first edition of 365 *Gym Fit*.  
+
+  2017, second edition of 366 *Golden Hour*.
+images: 
+    - jomohomo/01.jpg
+    - jomohomo/02.jpg
+    - jomohomo/03.jpg
+    - jomohomo/04.jpg
+    - jomohomo/05.jpg
+    - jomohomo/06.jpg
+    - jomohomo/07.jpg
+---
