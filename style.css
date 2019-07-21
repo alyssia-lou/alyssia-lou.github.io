@@ -259,9 +259,19 @@ em {
 }
 
 
-@media only screen and (max-width: 650px) {
+/* iPhone 6 */
+@media only screen and (max-width: 375px) {
 
     #content {
-        font-size: 1.8em;
+        font-size: 1.6em;
+    }
+}
+
+
+/* iPhone SE */
+@media only screen and (max-width: 320px) {
+
+    #content {
+        font-size: 1.2em;
     }
 }
