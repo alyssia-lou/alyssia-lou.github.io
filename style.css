@@ -79,7 +79,8 @@ video {
 body {
     font-family: Times New Roman;
     text-align: justify;
-    letter-spacing: -1px;
+    word-spacing: -0.06em;
+    letter-spacing: -0.02em;
     margin: 3vh;
     -moz-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern=1";
