@@ -17,49 +17,68 @@
     background-repeat: no-repeat
     display: block
 
+$image-size-full: 100%
+$image-size-big: 90%
+$image-size-medium: 70%
+$image-size-normal: 50%
+$image-size-small: 40%
+
 .slideshow-1
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_01.jpg')
+    background-size: $image-size-medium
 
 .slideshow-2
     @extend %slideshow
+    background-size: $image-size-big
     background-image: url('../img/ALYSSIALOU_02.jpg')
 
 .slideshow-3
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_03+04.jpg')
+    background-size: cover
 
 .slideshow-4
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_ROOM_01.jpg')
+    background-size: $image-size-normal
 
 .slideshow-5
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_ROOM_03.jpg')
+    background-size: $image-size-medium
 
 .slideshow-6
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_05.jpg')
+    background-size: $image-size-medium
 
 .slideshow-7
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_IDEA_02.jpg')
+    background-size: cover
 
 .slideshow-8
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_15.jpg')
+    background-size: cover
 
 .slideshow-9
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_16_2.jpg')
+    background-size: $image-size-big
+    background-position: right
 
 .slideshow-10
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_06-2.jpg')
+    background-size: $image-size-normal
+    background-color: $purple
 
 .slideshow-11
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_06-2-invert.jpg')
+    background-size: $image-size-normal
 
 .slideshow-12
     @extend %slideshow
@@ -68,52 +87,70 @@
 .slideshow-13
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_12.jpg')
+    background-size: $image-size-normal
 
 .slideshow-14
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_13.jpg')
+    background-size: cover
 
 .slideshow-15
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_16.jpg')
+    background-size: $image-size-normal
 
 .slideshow-16
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_20-2.jpg')
+    background-size: $image-size-normal
+
 
 .slideshow-17
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_21.jpg')
+    background-size: cover
 
 .slideshow-18
     @extend %slideshow
-    background-image: url('../img/ALYSSIALOU_23.jpg')
+    background-image: url('../img/ALYSSIALOU_23.png')
+    background-color: $blue
+    background-size: $image-size-normal
+    background-position: top left
 
 .slideshow-19
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_22.jpg')
+    background-size: $image-size-medium
 
 .slideshow-20
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_11.jpg')
+    background-size: cover
 
 .slideshow-21
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_18.jpg')
+    background-size: $image-size-medium
 
 .slideshow-22
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_10-2.jpg')
+    background-size: $image-size-medium
 
 .slideshow-23
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_09.jpg')
 
+.slideshow-24
+    @extend %slideshow
+    background-image: url('../img/ALYSSIALOU_25.jpg')
+    background-size: cover
+
 .body
     display: none
     @media screen and (max-width: $on-mobile)
         display: block
-        height: auto
+        height: 3300px
 
 
 #caption

@@ -12,15 +12,12 @@ body
     text-align: $text-alignment
     text-justify: inter-word
     font-feature-settings: "tnum"
-    @media screen and (max-width: $on-mobile)
+    @media only screen and (max-width: $on-mobile)
         font-size: $font-mobile
         width: 100%
         overflow: hide
         padding: 0
         line-height: $leading-mobile
-    @media screen and (min-width: $on-big-desktop)
-        font-size: $font-big-desktop
-        line-height: $leading-big-desktop
 
 .clrFixA
     clear: both
