@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://fiddle.jshell.net/cydfh2s6/1/show/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title></title>
+  
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script type="text/javascript" src="./js/jquery-1.9.1.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.header-1 {
+    background-color: yellow;
+    display: block;
+}
+.header-2 {
+    background-color: red;
+}
+.header-3 {
+    background-color: green;
+}
+.body {
+    padding-top: 50px;
+    height: 2000px;   
+}
+  </style>
+
+</head>
+<body>
+    <div class="header header-1" data-visible-range="0-100" style="display: none;">Header 1</div>
+<div class="header header-2" data-visible-range="101-500" style="display: block;">Header 2</div>
+<div class="header header-3" data-visible-range="501-" style="display: none;">Header 3</div>
+<div class="body">BODY</div>
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">//<![CDATA[
+
+
+$(window).scroll(function() {
+    var scrollTop = $(this).scrollTop();
+    var headerToDisplay = false;
+    $('.header[data-visible-range]').each(function() {
+        var range = $(this).data('visible-range').split('-');
+        range[0] = range[0] ? parseInt(range[0], 10) : 0;
+        range[1] = range[1] ? parseInt(range[1], 10) : $(document).height();
+        if(scrollTop >= range[0] && scrollTop <= range[1]) {
+            headerToDisplay = $(this);
+            return false;
+        }
+    });
+    if(headerToDisplay && !headerToDisplay.is(':visible')) {
+        $('.header[data-visible-range]').hide();
+        headerToDisplay.show();
+    }
+});
+
+
+  //]]></script>
+
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "cydfh2s6"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body></html>

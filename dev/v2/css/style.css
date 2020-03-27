@@ -15,6 +15,8 @@ body {
 @media screen and (max-width: 800px) {
   body {
     font-size: 15px;
+    width: 100%;
+    overflow: hide;
     padding: 0;
     line-height: 17px;
   }
@@ -53,6 +55,7 @@ button:hover {
 
 img {
   width: 100%;
+  height: 100%;
 }
 
 /* INFO */
@@ -106,7 +109,7 @@ img {
   #header-mobile {
     display: block;
     padding: 12px 15px;
-    position: absolute;
+    position: fixed;
     z-index: 100;
   }
 }
@@ -275,6 +278,146 @@ img {
   background-size: 70%;
 }
 
+/* SLIDER */
+.slideshow {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .slideshow {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+}
+
+.slideshow-23, .slideshow-22, .slideshow-21, .slideshow-20, .slideshow-19, .slideshow-18, .slideshow-17, .slideshow-16, .slideshow-15, .slideshow-14, .slideshow-13, .slideshow-12, .slideshow-11, .slideshow-10, .slideshow-9, .slideshow-8, .slideshow-7, .slideshow-6, .slideshow-5, .slideshow-4, .slideshow-3, .slideshow-2, .slideshow-1 {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.slideshow-1 {
+  background-image: url("../img/ALYSSIALOU_01.jpg");
+}
+
+.slideshow-2 {
+  background-image: url("../img/ALYSSIALOU_02.jpg");
+}
+
+.slideshow-3 {
+  background-image: url("../img/ALYSSIALOU_03+04.jpg");
+}
+
+.slideshow-4 {
+  background-image: url("../img/ALYSSIALOU_ROOM_01.jpg");
+}
+
+.slideshow-5 {
+  background-image: url("../img/ALYSSIALOU_ROOM_03.jpg");
+}
+
+.slideshow-6 {
+  background-image: url("../img/ALYSSIALOU_05.jpg");
+}
+
+.slideshow-7 {
+  background-image: url("../img/ALYSSIALOU_IDEA_02.jpg");
+}
+
+.slideshow-8 {
+  background-image: url("../img/ALYSSIALOU_15.jpg");
+}
+
+.slideshow-9 {
+  background-image: url("../img/ALYSSIALOU_16_2.jpg");
+}
+
+.slideshow-10 {
+  background-image: url("../img/ALYSSIALOU_06-2.jpg");
+}
+
+.slideshow-11 {
+  background-image: url("../img/ALYSSIALOU_06-2-invert.jpg");
+}
+
+.slideshow-12 {
+  background-image: url("../img/ALYSSIALOU_08.jpg");
+}
+
+.slideshow-13 {
+  background-image: url("../img/ALYSSIALOU_12.jpg");
+}
+
+.slideshow-14 {
+  background-image: url("../img/ALYSSIALOU_13.jpg");
+}
+
+.slideshow-15 {
+  background-image: url("../img/ALYSSIALOU_16.jpg");
+}
+
+.slideshow-16 {
+  background-image: url("../img/ALYSSIALOU_20-2.jpg");
+}
+
+.slideshow-17 {
+  background-image: url("../img/ALYSSIALOU_21.jpg");
+}
+
+.slideshow-18 {
+  background-image: url("../img/ALYSSIALOU_23.jpg");
+}
+
+.slideshow-19 {
+  background-image: url("../img/ALYSSIALOU_22.jpg");
+}
+
+.slideshow-20 {
+  background-image: url("../img/ALYSSIALOU_11.jpg");
+}
+
+.slideshow-21 {
+  background-image: url("../img/ALYSSIALOU_18.jpg");
+}
+
+.slideshow-22 {
+  background-image: url("../img/ALYSSIALOU_10-2.jpg");
+}
+
+.slideshow-23 {
+  background-image: url("../img/ALYSSIALOU_09.jpg");
+}
+
+.body {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .body {
+    display: block;
+    height: auto;
+  }
+}
+
+#caption {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  #caption {
+    bottom: 15px;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+}
+
 /* ARTICLE */
 /* ARTICLE IMAGE */
 /* IMAGE TYPES */
@@ -287,11 +430,6 @@ img {
   z-index: 1;
   height: calc(100% - 110px);
   bottom: 15px;
-}
-@media screen and (max-width: 800px) {
-  #image-right, #image-left {
-    display: none;
-  }
 }
 
 #image-right-overlap, #image-left-overlap {
@@ -316,11 +454,6 @@ img {
   z-index: 2;
   width: 100%;
   height: 100%;
-}
-@media screen and (max-width: 800px) {
-  #image-fullscreen {
-    display: none;
-  }
 }
 
 /* IMAGES */
@@ -373,8 +506,13 @@ img {
 }
 @media screen and (max-width: 800px) {
   #image15, #image14, #image13, #image12, #image11, #image10, #image9, #image8, #image7, #image6, #image5, #image4, #image3, #image2, #image1 {
-    display: none;
+    display: block;
   }
+}
+
+.image1-mobile, .image2-mobile, .image3-mobile, .image4-mobile, .image5-mobile, .image6-mobile, .image7-mobile, .image8-mobile, .image9-mobile, .image10-mobile, .image11-mobile, .image12-mobile, .image13-mobile, .image14-mobile, .image15-mobile, .image16-mobile, .image17-mobile, .image18-mobile, .image19-mobile, .image20-mobile, .image21-mobile, .image22-mobile, .image23-mobile {
+  display: block;
+  width: 100%;
 }
 
 /* ARTICLE IMAGE 1 */
