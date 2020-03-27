@@ -1,0 +1,28 @@
+/* INFO */
+
+#info
+    position: absolute
+    left: $padding
+    background-color: transparent
+    width: 100%
+    top: 68px
+    display: none
+    z-index: 10000
+    height: calc(100% - 30px)
+    
+%info
+    width: calc(50% - 30px)
+    height: auto
+    background-color: $colour1
+    display: inline-block
+    padding-right: $padding
+    vertical-align: top
+
+#info-left
+    @extend %info
+    left: $padding
+
+#info-right
+    @extend %info
+    left: calc(45% + 15px)
+

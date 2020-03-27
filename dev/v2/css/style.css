@@ -1,0 +1,1097 @@
+/* MAIN */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 17px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 12px 15px;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-smoothing: antialiased;
+  text-align: justify;
+  text-justify: inter-word;
+  font-feature-settings: "tnum";
+}
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 15px;
+    padding: 0;
+    line-height: 17px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  body {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+
+.clrFixA {
+  clear: both;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+button {
+  border: 1px solid black;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  line-height: 13px;
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+}
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+img {
+  width: 100%;
+}
+
+/* INFO */
+#info {
+  position: absolute;
+  left: 15px;
+  background-color: transparent;
+  width: 100%;
+  top: 68px;
+  display: none;
+  z-index: 10000;
+  height: calc(100% - 30px);
+}
+
+#info-right, #info-left {
+  width: calc(50% - 30px);
+  height: auto;
+  background-color: white;
+  display: inline-block;
+  padding-right: 15px;
+  vertical-align: top;
+}
+
+#info-left {
+  left: 15px;
+}
+
+#info-right {
+  left: calc(45% + 15px);
+}
+
+/* HEADER */
+#header {
+  color: black;
+  position: fixed;
+  z-index: 1;
+  cursor: pointer;
+  max-width: calc(100% - 30px);
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #header {
+    display: none;
+  }
+}
+
+#header-mobile {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  #header-mobile {
+    display: block;
+    padding: 12px 15px;
+    position: absolute;
+    z-index: 100;
+  }
+}
+
+/* SWIPER */
+.swiper-container {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .swiper-container {
+    display: block;
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.swiper-slide {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .swiper-slide {
+    top: 0;
+    position: absolute;
+    display: block;
+    vertical-align: bottom;
+    text-align: center;
+  }
+}
+
+#caption-mobile {
+  bottom: 15px;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  margin: auto;
+}
+
+.image23-mobile, .image22-mobile, .image21-mobile, .image20-mobile, .image19-mobile, .image18-mobile, .image17-mobile, .image16-mobile, .image15-mobile, .image14-mobile, .image13-mobile, .image12-mobile, .image11-mobile, .image10-mobile, .image9-mobile, .image8-mobile, .image7-mobile, .image6-mobile, .image5-mobile, .image4-mobile, .image3-mobile, .image2-mobile, .image1-mobile {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.image1-mobile {
+  background-image: url("../img/ALYSSIALOU_01.jpg");
+  background-size: contain;
+}
+
+.image2-mobile {
+  background-image: url("../img/ALYSSIALOU_02.jpg");
+  background-size: 80%;
+}
+
+.image3-mobile {
+  background-image: url("../img/ALYSSIALOU_03+04.jpg");
+  background-size: cover;
+}
+
+.image4-mobile {
+  background-image: url("../img/ALYSSIALOU_ROOM_01.jpg");
+  background-size: 50%;
+}
+
+.image5-mobile {
+  background-image: url("../img/ALYSSIALOU_ROOM_03.jpg");
+  background-size: 60%;
+  background-color: #28da00;
+}
+
+.image6-mobile {
+  background-image: url("../img/ALYSSIALOU_05.jpg");
+  background-size: 70%;
+}
+
+.image7-mobile {
+  background-image: url("../img/ALYSSIALOU_IDEA_02.jpg");
+  background-size: 100%;
+}
+
+.image8-mobile {
+  background-image: url("../img/ALYSSIALOU_15.jpg");
+  background-size: 100%;
+}
+
+.image9-mobile {
+  background-image: url("../img/ALYSSIALOU_16_2.jpg");
+  background-size: 90%;
+  background-position: right;
+}
+
+.image10-mobile {
+  background-image: url("../img/ALYSSIALOU_06-2.jpg");
+  background-size: 70%;
+  background-color: #d390ec;
+}
+
+.image11-mobile {
+  background-image: url("../img/ALYSSIALOU_06-2-invert.jpg");
+  background-size: 70%;
+}
+
+.image12-mobile {
+  background-image: url("../img/ALYSSIALOU_08.jpg");
+  background-size: 100%;
+}
+
+.image13-mobile {
+  background-image: url("../img/ALYSSIALOU_12.jpg");
+  background-size: 60%;
+}
+
+.image14-mobile {
+  background-image: url("../img/ALYSSIALOU_13.jpg");
+  background-size: contain;
+}
+
+.image15-mobile {
+  background-image: url("../img/ALYSSIALOU_16.jpg");
+  background-size: 50%;
+}
+
+.image16-mobile {
+  background-image: url("../img/ALYSSIALOU_20-2.jpg");
+  background-size: 70%;
+}
+
+.image17-mobile {
+  background-image: url("../img/ALYSSIALOU_21.jpg");
+  background-size: 70%;
+}
+
+.image18-mobile {
+  background-image: url("../img/ALYSSIALOU_23.png");
+  background-size: 70%;
+  background-position: top left;
+  background-color: #1641e6;
+}
+
+.image19-mobile {
+  background-image: url("../img/ALYSSIALOU_22.jpg");
+  background-size: 70%;
+}
+
+.image20-mobile {
+  background-image: url("../img/ALYSSIALOU_11.jpg");
+  background-size: contain;
+}
+
+.image21-mobile {
+  background-image: url("../img/ALYSSIALOU_18.jpg");
+  background-size: 70%;
+}
+
+.image22-mobile {
+  background-image: url("../img/ALYSSIALOU_10-2.jpg");
+  background-size: contain;
+  z-index: 10000;
+}
+
+.image23-mobile {
+  background-image: url("../img/ALYSSIALOU_09.jpg");
+  background-size: 70%;
+}
+
+/* ARTICLE */
+/* ARTICLE IMAGE */
+/* IMAGE TYPES */
+#image-right, #image-left {
+  position: fixed;
+  top: 76px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  z-index: 1;
+  height: calc(100% - 110px);
+  bottom: 15px;
+}
+@media screen and (max-width: 800px) {
+  #image-right, #image-left {
+    display: none;
+  }
+}
+
+#image-right-overlap, #image-left-overlap {
+  position: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  height: 100%;
+  z-index: 2;
+  width: calc(50% - 8px);
+}
+@media screen and (max-width: 800px) {
+  #image-right-overlap, #image-left-overlap {
+    display: none;
+  }
+}
+
+#image-fullscreen {
+  position: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 800px) {
+  #image-fullscreen {
+    display: none;
+  }
+}
+
+/* IMAGES */
+#image-left {
+  right: 0;
+  left: 15px;
+  background-size: contain;
+  background-color: transparent;
+  width: calc(50% - 23px);
+  display: none;
+}
+
+#image-left-overlap {
+  right: 0;
+  left: 0;
+  background-size: contain;
+  top: 0;
+  display: none;
+}
+
+#image-right {
+  width: calc(50% - 23px);
+  right: 15px;
+  background-color: transparent;
+  background-size: cover;
+  display: none;
+}
+
+#image-right-overlap {
+  right: 15px;
+  background-size: contain;
+  display: none;
+}
+
+#image-fullscreen {
+  right: 0;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+#image15, #image14, #image13, #image12, #image11, #image10, #image9, #image8, #image7, #image6, #image5, #image4, #image3, #image2, #image1 {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  z-index: 2;
+  opacity: 0;
+  width: 7vw;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image15, #image14, #image13, #image12, #image11, #image10, #image9, #image8, #image7, #image6, #image5, #image4, #image3, #image2, #image1 {
+    display: none;
+  }
+}
+
+/* ARTICLE IMAGE 1 */
+#image1 {
+  left: 0;
+}
+#image1:hover ~ #image-left-overlap {
+  background-image: url("../img/ALYSSIALOU_01.jpg");
+  background-size: contain;
+  background-color: transparent;
+  display: block;
+  width: 50%;
+}
+@media screen and (max-width: 800px) {
+  #image1:hover ~ #image-left-overlap {
+    display: none;
+  }
+}
+#image1:hover ~ #image-right-overlap {
+  background-image: url("../img/ALYSSIALOU_02.jpg");
+  background-size: 90%;
+  width: 50%;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  background-position: center;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image1:hover ~ #image-right-overlap {
+    display: none;
+  }
+}
+#image1:hover ~ #image1caption {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image1:hover ~ #image1caption {
+    display: none;
+  }
+}
+#image1:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 2 */
+#image2 {
+  left: 7vw;
+}
+#image2:hover ~ #image-left-overlap {
+  background-image: url("../img/ALYSSIALOU_03.jpg");
+  background-size: cover;
+  background-color: black;
+  width: 50%;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image2:hover ~ #image-left-overlap {
+    display: none;
+  }
+}
+#image2:hover ~ #image-right-overlap {
+  background-image: url("../img/ALYSSIALOU_04.jpg");
+  background-size: cover;
+  background-color: black;
+  width: 50%;
+  top: 0;
+  right: 0;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image2:hover ~ #image-right-overlap {
+    display: none;
+  }
+}
+#image2:hover ~ #image2caption {
+  display: block;
+  color: white;
+}
+@media screen and (max-width: 800px) {
+  #image2:hover ~ #image2caption {
+    display: none;
+  }
+}
+#image2:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 3 */
+#image3 {
+  left: calc(7vw * 2);
+}
+#image3:hover ~ #image-left-overlap {
+  background-image: url("../img/ALYSSIALOU_ROOM_01.jpg");
+  height: 60%;
+  top: calc(76px + 20px);
+  background-color: transparent;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image3:hover ~ #image-left-overlap {
+    display: none;
+  }
+}
+#image3:hover ~ #image-right-overlap {
+  background-image: url("../img/ALYSSIALOU_ROOM_03.jpg");
+  background-size: contain;
+  background-color: #28da00;
+  background-size: 50%;
+  top: 0;
+  right: 0;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image3:hover ~ #image-right-overlap {
+    display: none;
+  }
+}
+#image3:hover ~ #image3caption {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image3:hover ~ #image3caption {
+    display: none;
+  }
+}
+#image3:hover ~ #caption-default {
+  display: none;
+}
+#image3:hover ~ #header {
+  display: none;
+}
+
+/* ARTICLE IMAGE 4 */
+#image4 {
+  left: calc(7vw * 3);
+}
+#image4:hover ~ #image-left {
+  background-image: url("../img/ALYSSIALOU_05.jpg");
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image4:hover ~ #image-left {
+    display: none;
+  }
+}
+#image4:hover ~ #image-right-overlap {
+  background-image: url("../img/ALYSSIALOU_IDEA_02.jpg");
+  background-size: contain;
+  background-color: transparent;
+  display: block;
+  top: 0;
+}
+@media screen and (max-width: 800px) {
+  #image4:hover ~ #image-right-overlap {
+    display: none;
+  }
+}
+#image4:hover ~ #image4caption {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image4:hover ~ #image4caption {
+    display: none;
+  }
+}
+#image4:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 5 */
+#image5 {
+  left: calc(7vw * 4);
+}
+#image5:hover ~ #image-left-overlap {
+  background-image: url("../img/ALYSSIALOU_15.jpg");
+  background-color: transparent;
+  left: 0;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image5:hover ~ #image-left-overlap {
+    display: none;
+  }
+}
+#image5:hover ~ #image-right {
+  background-image: url("../img/ALYSSIALOU_16_2.jpg");
+  background-size: contain;
+  background-position: right;
+  background-color: black;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image5:hover ~ #image-right {
+    display: none;
+  }
+}
+#image5:hover ~ #image5caption {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image5:hover ~ #image5caption {
+    display: none;
+  }
+}
+#image5:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 6 */
+#image6 {
+  left: calc(7vw * 5);
+}
+#image6:hover ~ #image-left-overlap {
+  background-image: url("../img/ALYSSIALOU_06-2.jpg");
+  background-color: #d390ec;
+  background-size: 57%;
+  left: 0;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image6:hover ~ #image-left-overlap {
+    display: none;
+  }
+}
+#image6:hover ~ #image-right-overlap {
+  background-image: url("../img/ALYSSIALOU_06-2-invert.jpg");
+  background-size: 57%;
+  top: 0;
+  right: 7vw;
+  background-position: right;
+  bottom: 0;
+  background-color: transparent;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image6:hover ~ #image-right-overlap {
+    display: none;
+  }
+}
+#image6:hover ~ #image6caption {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image6:hover ~ #image6caption {
+    display: none;
+  }
+}
+#image6:hover ~ #caption-default {
+  display: none;
+}
+#image6:hover ~ #header {
+  display: none;
+}
+
+/* ARTICLE IMAGE 7 */
+#image7 {
+  left: calc(7vw * 6);
+}
+#image7:hover ~ #image-fullscreen {
+  background-image: url("../img/ALYSSIALOU_08.jpg");
+  background-size: contain;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image7:hover ~ #image-fullscreen {
+    display: none;
+  }
+}
+#image7:hover ~ #image7caption {
+  display: none;
+}
+#image7:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 8 */
+#image8 {
+  left: calc(7vw * 7);
+}
+#image8:hover ~ #image-left {
+  background-image: url("../img/ALYSSIALOU_12.jpg");
+  background-size: 50%;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image8:hover ~ #image-left {
+    display: none;
+  }
+}
+#image8:hover ~ #image-right-overlap {
+  background-image: url("../img/ALYSSIALOU_13.jpg");
+  background-size: contain;
+  top: 0;
+  background-color: transparent;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image8:hover ~ #image-right-overlap {
+    display: none;
+  }
+}
+#image8:hover ~ #image8caption {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image8:hover ~ #image8caption {
+    display: none;
+  }
+}
+#image8:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 9 */
+#image9 {
+  left: calc(7vw * 8);
+}
+#image9:hover ~ #image-left-overlap {
+  background-image: url("../img/ALYSSIALOU_16.jpg");
+  background-size: 35%;
+  height: 100%;
+  left: 7vw;
+  background-color: transparent;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image9:hover ~ #image-left-overlap {
+    display: none;
+  }
+}
+#image9:hover ~ #image9caption {
+  color: white;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image9:hover ~ #image9caption {
+    display: none;
+  }
+}
+#image9:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 10 */
+#image10 {
+  left: calc(7vw * 9);
+}
+#image10:hover ~ #image-right-overlap {
+  background-image: url("../img/ALYSSIALOU_20-2.jpg");
+  background-size: 50%;
+  background-color: transparent;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image10:hover ~ #image-right-overlap {
+    display: none;
+  }
+}
+#image10:hover ~ #image-left-overlap {
+  background-image: url("../img/ALYSSIALOU_21.jpg");
+  background-size: contain;
+  background-color: transparent;
+  right: calc(7vw * 1.2);
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image10:hover ~ #image-left-overlap {
+    display: none;
+  }
+}
+#image10:hover ~ #image10caption {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image10:hover ~ #image10caption {
+    display: none;
+  }
+}
+#image10:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 11 */
+#image11 {
+  left: calc(7vw * 10);
+}
+#image11:hover ~ #image-left-overlap {
+  background-image: url("../img/ALYSSIALOU_23.png");
+  background-size: contain;
+  background-color: #1641e6;
+  background-size: 50%;
+  background-position: top left;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image11:hover ~ #image-left-overlap {
+    display: none;
+  }
+}
+#image11:hover ~ #image-right {
+  background-image: url("../img/ALYSSIALOU_22.jpg");
+  background-size: contain;
+  background-color: transparent;
+  background-position: right;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image11:hover ~ #image-right {
+    display: none;
+  }
+}
+#image11:hover ~ #image11caption {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image11:hover ~ #image11caption {
+    display: none;
+  }
+}
+#image11:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 12 */
+#image12 {
+  left: calc(7vw * 11);
+}
+#image12:hover ~ #image-left-overlap {
+  background-image: url("../img/ALYSSIALOU_11.jpg");
+  background-size: contain;
+  background-color: transparent;
+  left: calc(7vw / 1.5);
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image12:hover ~ #image-left-overlap {
+    display: none;
+  }
+}
+#image12:hover ~ #image-right-overlap {
+  background-image: url("../img/ALYSSIALOU_18.jpg");
+  background-size: 50%;
+  background-color: transparent;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image12:hover ~ #image-right-overlap {
+    display: none;
+  }
+}
+#image12:hover ~ #image12caption {
+  display: block;
+  colour: white;
+}
+@media screen and (max-width: 800px) {
+  #image12:hover ~ #image12caption {
+    display: none;
+  }
+}
+#image12:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 13 */
+#image13 {
+  left: calc(7vw * 12);
+}
+#image13:hover ~ #image-left-overlap {
+  background-image: url("../img/ALYSSIALOU_25.jpg");
+  background-size: contain;
+  background-position: center;
+  background-color: transparent;
+  width: 100%;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image13:hover ~ #image-left-overlap {
+    display: none;
+  }
+}
+#image13:hover ~ #image13caption {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image13:hover ~ #image13caption {
+    display: none;
+  }
+}
+#image13:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 14 */
+#image14 {
+  left: calc(7vw * 13);
+}
+#image14:hover ~ #image-left {
+  background-image: url("../img/ALYSSIALOU_10-2.jpg");
+  background-size: contain;
+  background-color: transparent;
+  left: calc(7vw / 1.5);
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image14:hover ~ #image-left {
+    display: none;
+  }
+}
+#image14:hover ~ #image-right-overlap {
+  background-image: url("../img/ALYSSIALOU_09.jpg");
+  background-size: 70%;
+  background-color: transparent;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image14:hover ~ #image-right-overlap {
+    display: none;
+  }
+}
+#image14:hover ~ #image14caption {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image14:hover ~ #image14caption {
+    display: none;
+  }
+}
+#image14:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE IMAGE 15 */
+#image15 {
+  left: calc(7vw * 14);
+}
+#image15:hover ~ #image-left {
+  background-image: url("../img/ALYSSIALOU_25.jpg");
+  background-size: contain;
+  background-color: black;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image15:hover ~ #image-left {
+    display: none;
+  }
+}
+#image15:hover ~ #image-right {
+  background-image: url("../img/ALYSSIALOU_CD_26.jpg");
+  background-size: cover;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image15:hover ~ #image-right {
+    display: none;
+  }
+}
+#image15:hover ~ #image15caption {
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #image15:hover ~ #image15caption {
+    display: none;
+  }
+}
+#image15:hover ~ #caption-default {
+  display: none;
+}
+
+/* ARTICLE CAPTIONS */
+#image15caption, #image14caption, #image13caption, #image12caption, #image11caption, #image10caption, #image9caption, #image8caption, #image7caption, #image6caption, #image5caption, #image4caption, #image3caption, #image2caption, #image1caption {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  padding: 9px 15px;
+  width: calc(100% - 60px);
+  margin: auto;
+  text-align: center;
+  z-index: 3;
+  display: none;
+}
+
+#caption-default {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  background-color: white;
+  padding: 9px 15px;
+  margin: auto;
+  width: calc(100% - 60px);
+  text-align: center;
+  z-index: 1;
+  display: block;
+}
+@media screen and (max-width: 800px) {
+  #caption-default {
+    display: none;
+  }
+}
+
+#sub-caption {
+  width: 50%;
+  padding: 0;
+  display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+  #image1caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image2caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image3caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image4caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image5caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image6caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image7caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image8caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image9caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image10caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image11caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image12caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image13caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image14caption {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #image15caption {
+    display: none;
+  }
+}
+
+/* FOOTER */
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white !important;
+  z-index: 1000;
+}
+
+li.image p.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: none;
+}
+
+li.image:hover p.caption {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

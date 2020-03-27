@@ -1,0 +1,43 @@
+/* MAIN */
+
+body
+    font-family: $font
+    font-size: $font-size
+    line-height: $leading
+    background-color: $colour1
+    margin: $margin
+    padding: 12px $padding
+    font-variant-ligatures: common-ligatures
+    -webkit-font-smoothing: antialiased
+    text-align: $text-alignment
+    text-justify: inter-word
+    font-feature-settings: "tnum"
+    @media screen and (max-width: $on-mobile)
+        font-size: $font-mobile
+        padding: 0
+        line-height: $leading-mobile
+    @media screen and (min-width: $on-big-desktop)
+        font-size: $font-big-desktop
+        line-height: $leading-big-desktop
+
+.clrFixA
+    clear: both
+
+a
+    color: $colour2
+    text-decoration: none
+    border-bottom: 1px solid $colour2
+
+button
+    border: 1px solid $colour2
+    font-family: $font
+    font-size: $font-size
+    cursor: pointer
+    line-height: 13px
+    +border-radius(15px)
+    &:hover
+        color: $colour1
+        background-color: $colour2
+
+img
+    width: 100%
