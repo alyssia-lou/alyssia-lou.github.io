@@ -526,8 +526,8 @@ img {
 #image15, #image14, #image13, #image12, #image11, #image10, #image9, #image8, #image7, #image6, #image5, #image4, #image3, #image2, #image1 {
   position: absolute;
   height: 100vh;
-  top: 0;
-  z-index: 1;
+  top: 93px;
+  z-index: 3;
   opacity: 0;
   width: 7vw;
   display: block;
@@ -756,7 +756,7 @@ img {
 #image6:hover ~ #image-left-overlap {
   background-image: url("../img/ALYSSIALOU_06-2.jpg");
   background-color: #d390ec;
-  background-size: 57%;
+  background-size: 50%;
   left: 0;
   display: block;
 }
@@ -767,7 +767,7 @@ img {
 }
 #image6:hover ~ #image-right-overlap {
   background-image: url("../img/ALYSSIALOU_06-2-invert.jpg");
-  background-size: 57%;
+  background-size: 50%;
   top: 0;
   right: 7vw;
   background-position: right;
@@ -1022,7 +1022,7 @@ img {
 }
 #image13:hover ~ #image-right-overlap {
   background-image: url("../img/ALYSSIALOU_09.jpg");
-  background-size: 70%;
+  background-size: contain;
   background-color: transparent;
   display: block;
 }

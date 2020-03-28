@@ -81,8 +81,8 @@ $image-width-fullscreen: 100%
 %clickable-area
         position: absolute
         height: 100vh
-        top: 0
-        z-index: 1
+        top: $image-top-position
+        z-index: 3
         opacity: 0
         width: $spacing
         display: block
@@ -252,14 +252,14 @@ $image-width-fullscreen: 100%
                 &~#image-left-overlap
                         background-image: url('../img/ALYSSIALOU_06-2.jpg')
                         background-color: $purple
-                        background-size: 57%
+                        background-size: $image-size-normal
                         left: 0
                         display: block
                         @media screen and (max-width: $on-mobile)
                                 display: none
                 &~#image-right-overlap
                         background-image: url('../img/ALYSSIALOU_06-2-invert.jpg')
-                        background-size: 57%
+                        background-size: $image-size-normal
                         top: 0
                         right: $spacing
                         background-position: right
@@ -446,7 +446,7 @@ $image-width-fullscreen: 100%
                                 display: none
                 &~#image-right-overlap
                         background-image: url('../img/ALYSSIALOU_09.jpg')
-                        background-size: 70%
+                        background-size: contain
                         background-color: transparent
                         display: block
                         @media screen and (max-width: $on-mobile)
