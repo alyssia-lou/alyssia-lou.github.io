@@ -10,18 +10,13 @@
         width: 100%
         height: 100%
         display: none
+        scroll-snap-type: y mandatory
 
 %slideshow
     background-size: contain
     background-position: center
     background-repeat: no-repeat
-    display: block
-
-$image-size-full: 100%
-$image-size-big: 90%
-$image-size-medium: 75%
-$image-size-normal: 50%
-$image-size-small: 40%
+    display: flex
 
 .slideshow-1
     @extend %slideshow
@@ -140,6 +135,7 @@ $image-size-small: 40%
 .slideshow-23
     @extend %slideshow
     background-image: url('../img/ALYSSIALOU_09.jpg')
+    background-size: cover
 
 .slideshow-24
     @extend %slideshow
@@ -157,9 +153,10 @@ $image-size-small: 40%
     display: none
     @media screen and (max-width: $on-mobile)
         bottom: 15px
-        position: absolute
+        left: 5%
+        right: 5%
+        margin: auto
+        width: 90%
         text-align: center
-        margin: auto
-        width: 100%
+        position: fixed
         display: block
-        margin: auto

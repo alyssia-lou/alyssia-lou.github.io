@@ -1,9 +1,0 @@
-@media only screen and (max-width: 700px) {
-
-#header-mobile {
-    display: block;
-    padding: 12px $padding;
-    position: fixed;
-    z-index: 100;
-    }
-}

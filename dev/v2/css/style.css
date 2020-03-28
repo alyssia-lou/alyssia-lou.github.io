@@ -16,7 +16,7 @@ body {
   body {
     font-size: 15px;
     width: 100%;
-    overflow: hide;
+    overflow: scroll;
     padding: 0;
     line-height: 17px;
   }
@@ -286,6 +286,7 @@ img {
     width: 100%;
     height: 100%;
     display: none;
+    scroll-snap-type: y mandatory;
   }
 }
 
@@ -293,7 +294,7 @@ img {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  display: block;
+  display: flex;
 }
 
 .slideshow-1 {
@@ -411,6 +412,7 @@ img {
 
 .slideshow-23 {
   background-image: url("../img/ALYSSIALOU_09.jpg");
+  background-size: cover;
 }
 
 .slideshow-24 {
@@ -434,12 +436,13 @@ img {
 @media screen and (max-width: 700px) {
   #caption {
     bottom: 15px;
-    position: absolute;
+    left: 5%;
+    right: 5%;
+    margin: auto;
+    width: 90%;
     text-align: center;
-    margin: auto;
-    width: 100%;
+    position: fixed;
     display: block;
-    margin: auto;
   }
 }
 
@@ -448,12 +451,12 @@ img {
 /* IMAGE TYPES */
 #image-right, #image-left {
   position: fixed;
-  top: 76px;
+  top: 93px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: black;
   z-index: 1;
-  height: calc(100% - 110px);
+  height: calc(100% - 130px);
   bottom: 15px;
 }
 
@@ -549,7 +552,6 @@ img {
   background-size: contain;
   background-color: transparent;
   display: block;
-  width: 50%;
 }
 @media screen and (max-width: 700px) {
   #image1:hover ~ #image-left-overlap {
@@ -633,7 +635,7 @@ img {
 #image3:hover ~ #image-left-overlap {
   background-image: url("../img/ALYSSIALOU_ROOM_01.jpg");
   height: 60%;
-  top: calc(76px + 20px);
+  top: calc(93px + 20px);
   background-color: transparent;
   display: block;
 }
@@ -1006,16 +1008,26 @@ img {
 #image13 {
   left: calc(7vw * 12);
 }
-#image13:hover ~ #image-left-overlap {
-  background-image: url("../img/ALYSSIALOU_25.jpg");
+#image13:hover ~ #image-left {
+  background-image: url("../img/ALYSSIALOU_10-2.jpg");
   background-size: contain;
-  background-position: center;
   background-color: transparent;
-  width: 100%;
+  left: calc(7vw / 1.5);
   display: block;
 }
 @media screen and (max-width: 700px) {
-  #image13:hover ~ #image-left-overlap {
+  #image13:hover ~ #image-left {
+    display: none;
+  }
+}
+#image13:hover ~ #image-right-overlap {
+  background-image: url("../img/ALYSSIALOU_09.jpg");
+  background-size: 70%;
+  background-color: transparent;
+  display: block;
+}
+@media screen and (max-width: 700px) {
+  #image13:hover ~ #image-right-overlap {
     display: none;
   }
 }
@@ -1035,26 +1047,16 @@ img {
 #image14 {
   left: calc(7vw * 13);
 }
-#image14:hover ~ #image-left {
-  background-image: url("../img/ALYSSIALOU_10-2.jpg");
+#image14:hover ~ #image-left-overlap {
+  background-image: url("../img/ALYSSIALOU_25.jpg");
   background-size: contain;
+  background-position: center;
   background-color: transparent;
-  left: calc(7vw / 1.5);
+  width: 100%;
   display: block;
 }
 @media screen and (max-width: 700px) {
-  #image14:hover ~ #image-left {
-    display: none;
-  }
-}
-#image14:hover ~ #image-right-overlap {
-  background-image: url("../img/ALYSSIALOU_09.jpg");
-  background-size: 70%;
-  background-color: transparent;
-  display: block;
-}
-@media screen and (max-width: 700px) {
-  #image14:hover ~ #image-right-overlap {
+  #image14:hover ~ #image-left-overlap {
     display: none;
   }
 }

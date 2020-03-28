@@ -1,8 +1,8 @@
 /* ARTICLE */
 
 /* ARTICLE IMAGE */
-$image-height: calc(100% - 110px)
-$image-top-position: 76px
+$image-height: calc(100% - 130px)
+$image-top-position: 93px
 $image-width: calc(50% - 23px)
 $image-width-overlap: calc(50% - 8px)
 $image-width-fullscreen: 100%
@@ -104,7 +104,6 @@ $image-width-fullscreen: 100%
                         background-size: contain
                         background-color: transparent
                         display: block
-                        width: 50%
                         @media screen and (max-width: $on-mobile)
                                 display: none
                 &~#image-right-overlap
@@ -437,12 +436,18 @@ $image-width-fullscreen: 100%
         @extend %clickable-area
         left: calc(#{$spacing} * 12)
         &:hover
-                &~#image-left-overlap
-                        background-image: url('../img/ALYSSIALOU_25.jpg')
+                &~#image-left
+                        background-image: url('../img/ALYSSIALOU_10-2.jpg')
                         background-size: contain
-                        background-position: center
                         background-color: transparent
-                        width: 100%
+                        left: calc(#{$spacing} / 1.5)
+                        display: block
+                        @media screen and (max-width: $on-mobile)
+                                display: none
+                &~#image-right-overlap
+                        background-image: url('../img/ALYSSIALOU_09.jpg')
+                        background-size: 70%
+                        background-color: transparent
                         display: block
                         @media screen and (max-width: $on-mobile)
                                 display: none
@@ -459,18 +464,12 @@ $image-width-fullscreen: 100%
         @extend %clickable-area
         left: calc(#{$spacing} * 13)
         &:hover
-                &~#image-left
-                        background-image: url('../img/ALYSSIALOU_10-2.jpg')
+                &~#image-left-overlap
+                        background-image: url('../img/ALYSSIALOU_25.jpg')
                         background-size: contain
+                        background-position: center
                         background-color: transparent
-                        left: calc(#{$spacing} / 1.5)
-                        display: block
-                        @media screen and (max-width: $on-mobile)
-                                display: none
-                &~#image-right-overlap
-                        background-image: url('../img/ALYSSIALOU_09.jpg')
-                        background-size: 70%
-                        background-color: transparent
+                        width: 100%
                         display: block
                         @media screen and (max-width: $on-mobile)
                                 display: none
