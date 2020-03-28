@@ -3,7 +3,7 @@
 #header {
     color: $colour2;
     position: fixed;
-    z-index: 2;
+    z-index: 1;
     max-width: calc(100% - 30px);
     display: block;
     @media screen and (max-width: $on-mobile) {
@@ -19,4 +19,9 @@
         position: fixed;
         z-index: 2;
     }
+}
+
+article {
+    top: 100px;
+    position: absolute;
 }

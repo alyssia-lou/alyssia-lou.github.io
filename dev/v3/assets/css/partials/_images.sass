@@ -1,0 +1,209 @@
+/* CLICKABLE AREAS */
+
+%area
+    position: absolute
+    height: calc(100vh - #{$image-top-position})
+    top: $image-top-position
+    z-index: 3
+    opacity: 1
+    width: $spacing
+    display: block
+    &:hover
+        &~#caption-default
+            display: none
+
+#area-1
+    @extend %area
+    left: 0
+    &:hover
+        &~#project-1
+            display: block
+
+#area-2
+    @extend %area
+    left: $spacing
+    &:hover
+        &~#project-2
+            display: block
+
+#area-3
+    @extend %area
+    left: calc(#{$spacing} * 2)
+    &:hover
+        &~#project-3
+            display: block
+
+#area-4
+    @extend %area
+    left: calc(#{$spacing} * 3)
+    &:hover
+        &~#project-4
+            display: block
+
+#area-5
+    @extend %area
+    left: calc(#{$spacing} * 4)
+    &:hover
+        &~#project-5
+            display: block
+
+#area-6
+    @extend %area
+    left: calc(#{$spacing} * 5)
+    &:hover
+        &~#project-6
+            display: block
+
+#area-7
+    @extend %area
+    left: calc(#{$spacing} * 6)
+    &:hover
+        &~#project-7
+            display: block
+
+
+#area-8
+    @extend %area
+    left: calc(#{$spacing} * 7)
+    &:hover
+        &~#project-8
+            display: block
+
+
+#area-9
+    @extend %area
+    left: calc(#{$spacing} * 8)
+    &:hover
+        &~#project-9
+            display: block
+
+
+#area-10
+    @extend %area
+    left: calc(#{$spacing} * 9)
+    &:hover
+        &~#project-10
+            display: block
+
+#area-11
+    @extend %area
+    left: calc(#{$spacing} * 10)
+    &:hover
+        &~#project-11
+            display: block
+
+
+#area-12
+    @extend %area
+    left: calc(#{$spacing} * 11)
+    &:hover
+        &~#project-12
+            display: block
+
+#area-13
+    @extend %area
+    left: calc(#{$spacing} * 12)
+    &:hover
+        &~#project-13
+            display: block
+
+#area-14
+    @extend %area
+    left: calc(#{$spacing} * 13)
+    &:hover
+        &~#project-14
+            display: block
+
+
+    
+/* IMAGES */
+%image
+    position: fixed
+    background-repeat: no-repeat
+    background-position: center
+    height: 100%
+    z-index: 1
+    width: 50%
+
+#project
+    position: absolute
+    top: 0
+    z-index: 2
+    height: 100vh
+    bottom: 0
+    display: none
+    @media screen and (max-width: $on-mobile)
+        display: none
+
+#project-1, #project-2, #project-3, #project-4, #project-5, #project-6, #project-7, #project-8, #project-9, #project-10, #project-11, #project-12, #project-13, #project-14
+    display: none
+
+#image-left
+    @extend %image
+    left: 0
+    top: 0
+    display: block
+    @media screen and (max-width: $on-mobile)
+        display: none
+
+#image-right
+    @extend %image
+    right: 0
+    top: 0
+    display: block
+    @media screen and (max-width: $on-mobile)
+        display: none
+
+#image-center
+    @extend %image
+    right: 0
+    left: 0
+    width: 100vw
+    height: 100vh
+    top: 0
+    display: block
+    @media screen and (max-width: $on-mobile)
+        display: none
+
+/* CAPTIONS */
+%caption
+    bottom: 11px
+    z-index: 10
+    position: fixed
+    text-align: center
+
+#caption-default
+    position: fixed
+    bottom: 0
+    left: $padding
+    background-color: $colour1
+    padding: 11px 15px
+    margin: auto
+    width: calc(100% - 60px)
+    text-align: center
+    z-index: 1
+    display: block
+    @media screen and (max-width: $on-mobile)
+        display: none
+
+#caption-left
+    @extend %caption
+    width: 50%
+    left: 0
+    @media screen and (max-width: $on-mobile)
+        display: none
+
+#caption-right
+    @extend %caption
+    width: 50%
+    right: 0
+    @media screen and (max-width: $on-mobile)
+        display: none
+
+#caption-center
+    @extend %caption
+    right: 0
+    left: 0
+    width: 100%
+    @media screen and (max-width: $on-mobile)
+        display: none

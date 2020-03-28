@@ -10,9 +10,11 @@ body {
   -webkit-font-smoothing: antialiased;
   text-align: justify;
   text-justify: inter-word;
+  overflow: hidden;
+  display: flow-root;
   font-feature-settings: "tnum";
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1024px) {
   body {
     font-size: 15px;
     width: 100%;
@@ -87,11 +89,10 @@ img {
   color: black;
   position: fixed;
   z-index: 2;
-  cursor: pointer;
   max-width: calc(100% - 30px);
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #header {
     display: none;
   }
@@ -100,12 +101,12 @@ img {
 #header-mobile {
   display: none;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1024px) {
   #header-mobile {
     display: block;
     padding: 12px 15px;
     position: fixed;
-    z-index: 100;
+    z-index: 2;
   }
 }
 
@@ -113,7 +114,7 @@ img {
 .swiper-container {
   display: none;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   .swiper-container {
     display: block;
     width: 100%;
@@ -124,7 +125,7 @@ img {
 .swiper-slide {
   display: none;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   .swiper-slide {
     top: 0;
     position: absolute;
@@ -277,7 +278,7 @@ img {
 .slideshow {
   display: none;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   .slideshow {
     display: block;
     position: fixed;
@@ -294,12 +295,12 @@ img {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  z-index: 3;
   display: flex;
 }
 
 .slideshow-1 {
   background-image: url("../img/ALYSSIALOU_01.jpg");
-  background-size: 75%;
 }
 
 .slideshow-2 {
@@ -319,7 +320,8 @@ img {
 
 .slideshow-5 {
   background-image: url("../img/ALYSSIALOU_ROOM_03.jpg");
-  background-size: 75%;
+  background-size: 50%;
+  background-color: #28da00;
 }
 
 .slideshow-6 {
@@ -361,6 +363,7 @@ img {
 .slideshow-13 {
   background-image: url("../img/ALYSSIALOU_12.jpg");
   background-size: 50%;
+  background-repeat: repeat;
 }
 
 .slideshow-14 {
@@ -397,7 +400,8 @@ img {
 
 .slideshow-20 {
   background-image: url("../img/ALYSSIALOU_11.jpg");
-  background-size: cover;
+  background-size: 75%;
+  top: 3vh;
 }
 
 .slideshow-21 {
@@ -423,7 +427,7 @@ img {
 .body {
   display: none;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   .body {
     display: block;
     height: 3300px;
@@ -433,7 +437,7 @@ img {
 #caption {
   display: none;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #caption {
     bottom: 15px;
     left: 5%;
@@ -469,7 +473,7 @@ img {
   z-index: 2;
   width: calc(50% - 8px);
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image-right-overlap, #image-left-overlap {
     display: none;
   }
@@ -532,7 +536,7 @@ img {
   width: 7vw;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image15, #image14, #image13, #image12, #image11, #image10, #image9, #image8, #image7, #image6, #image5, #image4, #image3, #image2, #image1 {
     display: block;
   }
@@ -553,7 +557,7 @@ img {
   background-color: transparent;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image1:hover ~ #image-left-overlap {
     display: none;
   }
@@ -568,7 +572,7 @@ img {
   background-position: center;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image1:hover ~ #image-right-overlap {
     display: none;
   }
@@ -576,7 +580,7 @@ img {
 #image1:hover ~ #image1caption {
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image1:hover ~ #image1caption {
     display: none;
   }
@@ -596,7 +600,7 @@ img {
   width: 50%;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image2:hover ~ #image-left-overlap {
     display: none;
   }
@@ -610,7 +614,7 @@ img {
   right: 0;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image2:hover ~ #image-right-overlap {
     display: none;
   }
@@ -619,7 +623,7 @@ img {
   display: block;
   color: white;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image2:hover ~ #image2caption {
     display: none;
   }
@@ -639,7 +643,7 @@ img {
   background-color: transparent;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image3:hover ~ #image-left-overlap {
     display: none;
   }
@@ -653,7 +657,7 @@ img {
   right: 0;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image3:hover ~ #image-right-overlap {
     display: none;
   }
@@ -661,7 +665,7 @@ img {
 #image3:hover ~ #image3caption {
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image3:hover ~ #image3caption {
     display: none;
   }
@@ -681,7 +685,7 @@ img {
   background-image: url("../img/ALYSSIALOU_05.jpg");
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image4:hover ~ #image-left {
     display: none;
   }
@@ -693,7 +697,7 @@ img {
   display: block;
   top: 0;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image4:hover ~ #image-right-overlap {
     display: none;
   }
@@ -701,7 +705,7 @@ img {
 #image4:hover ~ #image4caption {
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image4:hover ~ #image4caption {
     display: none;
   }
@@ -720,27 +724,29 @@ img {
   left: 0;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image5:hover ~ #image-left-overlap {
     display: none;
   }
 }
-#image5:hover ~ #image-right {
+#image5:hover ~ #image-right-overlap {
   background-image: url("../img/ALYSSIALOU_16_2.jpg");
   background-size: contain;
   background-position: right;
-  background-color: black;
+  right: 0;
+  background-size: 75%;
+  background-color: transparent;
   display: block;
 }
-@media screen and (max-width: 700px) {
-  #image5:hover ~ #image-right {
+@media screen and (max-width: 1024px) {
+  #image5:hover ~ #image-right-overlap {
     display: none;
   }
 }
 #image5:hover ~ #image5caption {
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image5:hover ~ #image5caption {
     display: none;
   }
@@ -760,7 +766,7 @@ img {
   left: 0;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image6:hover ~ #image-left-overlap {
     display: none;
   }
@@ -775,7 +781,7 @@ img {
   background-color: transparent;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image6:hover ~ #image-right-overlap {
     display: none;
   }
@@ -783,7 +789,7 @@ img {
 #image6:hover ~ #image6caption {
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image6:hover ~ #image6caption {
     display: none;
   }
@@ -804,7 +810,7 @@ img {
   background-size: contain;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image7:hover ~ #image-fullscreen {
     display: none;
   }
@@ -825,7 +831,7 @@ img {
   background-size: 50%;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image8:hover ~ #image-left {
     display: none;
   }
@@ -837,7 +843,7 @@ img {
   background-color: transparent;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image8:hover ~ #image-right-overlap {
     display: none;
   }
@@ -845,7 +851,7 @@ img {
 #image8:hover ~ #image8caption {
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image8:hover ~ #image8caption {
     display: none;
   }
@@ -866,7 +872,7 @@ img {
   background-color: transparent;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image9:hover ~ #image-left-overlap {
     display: none;
   }
@@ -875,7 +881,7 @@ img {
   color: white;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image9:hover ~ #image9caption {
     display: none;
   }
@@ -894,7 +900,7 @@ img {
   background-color: transparent;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image10:hover ~ #image-right-overlap {
     display: none;
   }
@@ -906,7 +912,7 @@ img {
   right: calc(7vw * 1.2);
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image10:hover ~ #image-left-overlap {
     display: none;
   }
@@ -914,7 +920,7 @@ img {
 #image10:hover ~ #image10caption {
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image10:hover ~ #image10caption {
     display: none;
   }
@@ -935,7 +941,7 @@ img {
   background-position: top left;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image11:hover ~ #image-left-overlap {
     display: none;
   }
@@ -947,7 +953,7 @@ img {
   background-position: right;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image11:hover ~ #image-right {
     display: none;
   }
@@ -955,7 +961,7 @@ img {
 #image11:hover ~ #image11caption {
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image11:hover ~ #image11caption {
     display: none;
   }
@@ -975,7 +981,7 @@ img {
   left: calc(7vw / 1.5);
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image12:hover ~ #image-left-overlap {
     display: none;
   }
@@ -986,7 +992,7 @@ img {
   background-color: transparent;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image12:hover ~ #image-right-overlap {
     display: none;
   }
@@ -995,7 +1001,7 @@ img {
   display: block;
   colour: white;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image12:hover ~ #image12caption {
     display: none;
   }
@@ -1015,7 +1021,7 @@ img {
   left: calc(7vw / 1.5);
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image13:hover ~ #image-left {
     display: none;
   }
@@ -1026,7 +1032,7 @@ img {
   background-color: transparent;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image13:hover ~ #image-right-overlap {
     display: none;
   }
@@ -1034,7 +1040,7 @@ img {
 #image13:hover ~ #image13caption {
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image13:hover ~ #image13caption {
     display: none;
   }
@@ -1055,7 +1061,7 @@ img {
   width: 100%;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image14:hover ~ #image-left-overlap {
     display: none;
   }
@@ -1063,7 +1069,7 @@ img {
 #image14:hover ~ #image14caption {
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image14:hover ~ #image14caption {
     display: none;
   }
@@ -1082,7 +1088,7 @@ img {
   background-color: black;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image15:hover ~ #image-left {
     display: none;
   }
@@ -1092,7 +1098,7 @@ img {
   background-size: cover;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image15:hover ~ #image-right {
     display: none;
   }
@@ -1100,7 +1106,7 @@ img {
 #image15:hover ~ #image15caption {
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image15:hover ~ #image15caption {
     display: none;
   }
@@ -1111,10 +1117,10 @@ img {
 
 /* ARTICLE CAPTIONS */
 #image15caption, #image14caption, #image13caption, #image12caption, #image11caption, #image10caption, #image9caption, #image8caption, #image7caption, #image6caption, #image5caption, #image4caption, #image3caption, #image2caption, #image1caption {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 15px;
-  padding: 9px 15px;
+  padding: 11px 15px;
   width: calc(100% - 60px);
   margin: auto;
   text-align: center;
@@ -1123,18 +1129,18 @@ img {
 }
 
 #caption-default {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 15px;
   background-color: white;
-  padding: 9px 15px;
+  padding: 11px 15px;
   margin: auto;
   width: calc(100% - 60px);
   text-align: center;
   z-index: 1;
   display: block;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #caption-default {
     display: none;
   }
@@ -1142,95 +1148,99 @@ img {
 
 #sub-caption {
   width: 50%;
-  padding: 0;
   display: inline-block;
 }
+@media screen and (max-width: 1024px) {
+  #sub-caption {
+    display: none;
+  }
+}
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image1caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image2caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image3caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image4caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image5caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image6caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image7caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image8caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image9caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image10caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image11caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image12caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image13caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image14caption {
     display: none;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
   #image15caption {
     display: none;
   }

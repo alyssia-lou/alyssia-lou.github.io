@@ -228,11 +228,13 @@ $image-width-fullscreen: 100%
                         display: block
                         @media screen and (max-width: $on-mobile)
                                 display: none
-                &~#image-right
+                &~#image-right-overlap
                         background-image: url('../img/ALYSSIALOU_16_2.jpg')
                         background-size: contain
                         background-position: right
-                        background-color: black
+                        right: 0
+                        background-size: $image-size-medium
+                        background-color: transparent
                         display: block
                         @media screen and (max-width: $on-mobile)
                                 display: none
@@ -509,10 +511,10 @@ $image-width-fullscreen: 100%
 /* ARTICLE CAPTIONS */
 
 %caption
-        position: absolute
+        position: fixed
         bottom: 0
         left: $padding
-        padding: 9px 15px
+        padding: 11px 15px
         width: calc(100% - 60px)
         margin: auto
         text-align: center
@@ -520,11 +522,11 @@ $image-width-fullscreen: 100%
         display: none
 
 #caption-default
-        position: absolute
+        position: fixed
         bottom: 0
         left: $padding
         background-color: $colour1
-        padding: 9px 15px
+        padding: 11px 15px
         margin: auto
         width: calc(100% - 60px)
         text-align: center
@@ -535,8 +537,9 @@ $image-width-fullscreen: 100%
 
 #sub-caption
         width: 50%
-        padding: 0
         display: inline-block
+        @media screen and (max-width: $on-mobile)
+                display: none
 
 #image1caption
         @extend %caption
