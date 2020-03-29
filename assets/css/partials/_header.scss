@@ -1,0 +1,27 @@
+/* HEADER */
+
+#header {
+    color: $colour2;
+    position: fixed;
+    z-index: 1;
+    max-width: calc(100% - 30px);
+    display: block;
+    @media screen and (max-width: $on-mobile) {
+        display: none;
+    }
+}
+
+#header-mobile {
+    display: none;
+    @media only screen and (max-width: $on-mobile) {
+        display: block;
+        padding: 12px $padding;
+        position: fixed;
+        z-index: 4;
+    }
+}
+
+article {
+    top: 100px;
+    position: absolute;
+}

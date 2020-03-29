@@ -1,0 +1,183 @@
+/* SLIDER */
+
+.body
+    display: none
+    @media screen and (max-width: $on-mobile)
+        display: block
+        height: 3300px
+
+.slideshow
+    display: none
+    @media screen and (max-width: $on-mobile)
+        display: block
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        display: none
+        scroll-snap-type: y mandatory
+
+%slideshow
+    background-size: contain
+    background-position: center
+    background-repeat: no-repeat
+    z-index: 3
+    display: flex
+
+.slideshow-1
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_01.jpg')
+    z-index: 5
+
+.slideshow-2
+    @extend %slideshow
+    background-size: $image-size-big
+    background-image: url('../../assets/images/ALYSSIALOU_02.jpg')
+
+.slideshow-3
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_03+04.jpg')
+    background-size: cover
+    z-index: 5
+
+.slideshow-4
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_20-2.jpg')
+    background-size: 40%
+    background-repeat: repeat
+    z-index: 5
+
+.slideshow-5
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_27.jpg')
+    background-size: cover
+    z-index: 5
+
+.slideshow-6
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_05.jpg')
+    background-size: $image-size-medium
+
+.slideshow-7
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_IDEA_02.jpg')
+    background-size: cover
+    z-index: 10
+
+.slideshow-8
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_15.jpg')
+    background-size: $image-size-normal
+    z-index: 5
+
+.slideshow-9
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_16_2.jpg')
+    background-size: $image-size-big
+    background-position: right
+    z-index: 5
+
+
+.slideshow-10
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_06-3.jpg')
+    background-size: $image-size-medium
+    z-index: 5
+
+.slideshow-11
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_06-2-invert.jpg')
+    background-size: $image-size-normal
+
+.slideshow-12
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_08.jpg')
+
+.slideshow-13
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_12.jpg')
+    background-size: $image-size-normal
+    background-repeat: repeat
+    z-index: 5
+
+.slideshow-14
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_13.jpg')
+    background-size: cover
+    z-index: 5
+
+.slideshow-15
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_16.jpg')
+    background-size: $image-size-normal
+    background-position: bottom left
+
+.slideshow-16
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_20-2.jpg')
+    background-size: $image-size-normal
+    z-index: 5
+
+
+.slideshow-17
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_21.jpg')
+    background-size: cover
+    z-index: 5
+
+.slideshow-18
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_23.png')
+    background-color: $blue
+    background-size: $image-size-normal
+    background-position: top left
+    z-index: 5
+
+.slideshow-19
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_22.jpg')
+    background-size: $image-size-normal
+
+.slideshow-20
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_11.jpg')
+    background-size: $image-size-medium
+    top: 3vh
+
+.slideshow-21
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_18.jpg')
+    background-size: $image-size-medium
+
+.slideshow-22
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_10-2.jpg')
+    background-size: $image-size-normal
+
+.slideshow-23
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_09.jpg')
+    background-size: cover
+    z-index: 5
+
+.slideshow-24
+    @extend %slideshow
+    background-image: url('../../assets/images/ALYSSIALOU_25.jpg')
+    background-size: 70%
+    z-index: 5
+
+
+
+
+#caption
+    display: none
+    @media screen and (max-width: $on-mobile)
+        bottom: 15px
+        left: 5%
+        right: 5%
+        margin: auto
+        width: 90%
+        text-align: center
+        position: fixed
+        display: block

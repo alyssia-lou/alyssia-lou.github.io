@@ -1,0 +1,35 @@
+/* MAIN */
+
+body
+    font-family: $font
+    font-size: $font-size
+    line-height: $leading
+    background-color: $colour1
+    margin: $margin
+    padding: 12px $padding
+    font-variant-ligatures: common-ligatures
+    -webkit-font-smoothing: antialiased
+    text-align: $text-alignment
+    text-justify: inter-word
+    overflow: hidden
+    display: flow-root
+    font-feature-settings: "tnum"
+    @media only screen and (max-width: $on-mobile)
+        font-size: $font-mobile
+        width: 100%
+        overflow: scroll
+        padding: 0
+        line-height: $leading-mobile
+
+.clrFixA
+    clear: both
+
+a
+    color: $colour2
+    text-decoration: none
+    border-bottom: 1px solid $colour2
+
+
+img
+    width: 100%
+    height: 100%
