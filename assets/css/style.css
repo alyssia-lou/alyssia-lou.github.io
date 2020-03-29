@@ -15,13 +15,19 @@ body {
   display: flow-root;
   font-feature-settings: "tnum";
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   body {
     font-size: 16px;
     width: 100%;
     overflow: scroll;
     padding: 0;
     line-height: 18px;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  body {
+    font-size: 18px;
+    line-height: 20px;
   }
 }
 
@@ -77,7 +83,7 @@ img {
   max-width: calc(100% - 30px);
   display: block;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #header {
     display: none;
   }
@@ -86,7 +92,7 @@ img {
 #header-mobile {
   display: none;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   #header-mobile {
     display: block;
     padding: 12px 15px;
@@ -237,7 +243,7 @@ article {
   bottom: 0;
   display: none;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #project {
     display: none;
   }
@@ -252,7 +258,7 @@ article {
   top: 0;
   display: block;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #image-left {
     display: none;
   }
@@ -263,7 +269,7 @@ article {
   top: 0;
   display: block;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #image-right {
     display: none;
   }
@@ -277,7 +283,7 @@ article {
   top: 0;
   display: block;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #image-center {
     display: none;
   }
@@ -303,7 +309,7 @@ article {
   z-index: 1;
   display: block;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #caption-default {
     display: none;
   }
@@ -313,7 +319,7 @@ article {
   width: 50%;
   left: 0;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #caption-left {
     display: none;
   }
@@ -323,7 +329,7 @@ article {
   width: 50%;
   right: 0;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #caption-right {
     display: none;
   }
@@ -334,7 +340,7 @@ article {
   left: 0;
   width: 100%;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #caption-center {
     display: none;
   }
@@ -344,7 +350,7 @@ article {
 .body {
   display: none;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .body {
     display: block;
     height: 3300px;
@@ -354,7 +360,7 @@ article {
 .slideshow {
   display: none;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .slideshow {
     display: block;
     position: fixed;
@@ -500,12 +506,13 @@ article {
 
 .slideshow-22 {
   background-image: url("../../assets/images/ALYSSIALOU_10-2.jpg");
-  background-size: 50%;
+  background-size: contain;
+  z-index: 5;
 }
 
 .slideshow-23 {
   background-image: url("../../assets/images/ALYSSIALOU_09.jpg");
-  background-size: cover;
+  background-size: 75%;
   z-index: 5;
 }
 
@@ -518,7 +525,7 @@ article {
 #caption {
   display: none;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   #caption {
     bottom: 15px;
     left: 5%;
