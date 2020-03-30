@@ -6,9 +6,9 @@
 <article id="project-{{ post.page_id }}">
     <div id="image-left" style="background-image: url('/assets/images/{{ post.image-left }}'); background-size: {{ post.image-left-size }}; {% if post.image-left-background %} background-color: #{{ post.image-left-background | escape }}; {% else %}{% endif %}{% if post.image-left-position %} background-position: {{ post.image-left-position | escape }}; {% else %}{% endif %}{% if post.image-left-fullscreen %} width: {{ post.image-left-fullscreen | escape }}; {% else %}{% endif %}{% if post.image-left-repeat %} background-repeat: {{ post.image-left-repeat | escape }}; {% else %}{% endif %}"></div>
     <div id="image-right" style="background-image: url('/assets/images/{{ post.image-right }}'); background-size: {{ post.image-right-size }}; {% if post.image-right-background %} background-color: #{{ post.image-right-background | escape }}; {% else %}{% endif %} {% if post.image-right-position %} background-position: {{ post.image-right-position | escape }}; {% else %}{% endif %}{% if post.image-right-repeat %} background-repeat: {{ post.image-right-repeat | escape }}; {% else %}{% endif %}"></div>
-    <div id="caption-left" style="{% if post.caption-left-color %} color: #{{ post.caption-left-color | escape }}; {% else %}{% endif %}">{{ post.image-left-caption }}</div>
-    <div id="caption-right" style="{% if post.caption-right-color %} color: #{{ post.caption-right-color | escape }}; {% else %}{% endif %}">{{ post.image-right-caption }}</div>
-    <div id="caption-center" style="{% if post.caption-center-color %} color: #{{ post.caption-center-color | escape }}; {% else %}{% endif %}">{{ post.image-center-caption }}</div>
+    {% if post.image-left-caption %} <div id="caption-left" style="{% if post.caption-left-color %} color: #{{ post.caption-left-color | escape }}; {% else %}{% endif %}">{{ post.image-left-caption }}</div>{% endif %}
+    {% if post.image-right-caption %} <div id="caption-right" style="{% if post.caption-right-color %} color: #{{ post.caption-right-color | escape }}; {% else %}{% endif %}">{{ post.image-right-caption }}</div>{% endif %}
+    {% if post.image-center-caption %} <div id="caption-center" style="{% if post.caption-center-color %} color: #{{ post.caption-center-color | escape }}; {% else %}{% endif %}">{{ post.image-center-caption }}</div>{% endif %}
 </article>
 {% endfor %}
 <div id="caption-default">www.alyssialou.com</div>
