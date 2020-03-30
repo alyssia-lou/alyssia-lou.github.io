@@ -373,7 +373,7 @@ article {
   }
 }
 
-.slideshow-24, .slideshow-23, .slideshow-22, .slideshow-21, .slideshow-20, .slideshow-19, .slideshow-18, .slideshow-17, .slideshow-16, .slideshow-15, .slideshow-14, .slideshow-13, .slideshow-12, .slideshow-11, .slideshow-10, .slideshow-9, .slideshow-8, .slideshow-7, .slideshow-6, .slideshow-5, .slideshow-4, .slideshow-3, .slideshow-2, .slideshow-1 {
+.slideshow-25, .slideshow-24, .slideshow-23, .slideshow-22, .slideshow-21, .slideshow-20, .slideshow-19, .slideshow-18, .slideshow-17, .slideshow-16, .slideshow-15, .slideshow-14, .slideshow-13, .slideshow-12, .slideshow-11, .slideshow-10, .slideshow-9, .slideshow-8, .slideshow-7, .slideshow-6, .slideshow-5, .slideshow-4, .slideshow-3, .slideshow-2, .slideshow-1 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -392,7 +392,7 @@ article {
 }
 
 .slideshow-3 {
-  background-image: url("../../assets/images/ALYSSIALOU_03+04.jpg");
+  background-image: url("../../assets/images/ALYSSIALOU_03.jpg");
   background-size: cover;
   z-index: 5;
 }
@@ -519,6 +519,12 @@ article {
 .slideshow-24 {
   background-image: url("../../assets/images/ALYSSIALOU_25.jpg");
   background-size: 70%;
+  z-index: 5;
+}
+
+.slideshow-25 {
+  background-image: url("../../assets/images/ALYSSIALOU_04.jpg");
+  background-size: cover;
   z-index: 5;
 }
 
