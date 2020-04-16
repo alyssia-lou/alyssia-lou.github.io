@@ -54,6 +54,7 @@ img {
   left: 0px;
   top: 0px;
   display: none;
+  z-index: 10;
   background-color: black;
   background-position: center;
   background-size: 20%;
