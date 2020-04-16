@@ -1,43 +1,5 @@
-<script>
-//<![CDATA[
-    $(window).scroll(function() {
-        var scrollTop = $(this).scrollTop();
-        var headerToDisplay = false;
-        $('.slideshow[data-visible-range]').each(function() {
-            var range = $(this).data('visible-range').split('-');
-            range[0] = range[0] ? parseInt(range[0], 10) : 0;
-            range[1] = range[1] ? parseInt(range[1], 10) : $(document).height();
-            if(scrollTop >= range[0] && scrollTop <= range[1]) {
-                headerToDisplay = $(this);
-                return false;
-            }
-        });
-        if(headerToDisplay && !headerToDisplay.is(':visible')) {
-            $('.slideshow[data-visible-range]').hide();
-            headerToDisplay.show();
-        }
-    });
-//]]>
-</script>
-    
-<script>
-        // tell the embed parent frame the height of the content
-        if (window.parent && window.parent.parent){
-          window.parent.parent.postMessage(["resultsFrame", {
-            height: document.body.getBoundingClientRect().height,
-            slug: "cydfh2s6"
-          }], "*")
-        }
-    
-        // always overwrite window.name, in case users try to set it manually
-        window.name = "result"
-</script>
-      
-<script>
-        function setVisibility(id, visibility) {
-            document.getElementById(id).style.display = visibility;
-        }
-</script>
+<div id="screensaver"></div>
+<script type="text/javascript"  src="/assets/js/screensaver.js"></script>
+<script src="/assets/js/slideshow.js"></script>
 </body>
-
 </html>
