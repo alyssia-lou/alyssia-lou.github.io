@@ -1,6 +1,8 @@
 _site
 .sass-cache
 .jekyll-metadata
+vendor
+.bundle
 _sass/.DS_Store
 assets/images/a-room/01.JPG
 assets/images/a-room/02.JPG
