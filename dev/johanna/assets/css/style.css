@@ -31,8 +31,6 @@ div, p {
 
 }
 em {
-    text-decoration: underline;
-    font-style: normal;
 }
 .container {
     display: flex;
@@ -256,10 +254,6 @@ video {
 }
 #credits {
     margin: auto;
-}
-#thankyou{
-    display: inline-block;
-
 }
 .hyphen {
     font-family: 'Times New Roman', Times, serif;
