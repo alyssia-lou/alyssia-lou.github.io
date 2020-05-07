@@ -7,8 +7,8 @@
 
 body {
     font-family: 'Lisong', 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
-    line-height: 1.55vw;
+    font-size: 1.2em;
+    line-height: 1.1em;
     padding: 0;
     margin: 0;
     letter-spacing: -0.2px;
@@ -30,6 +30,10 @@ div, p {
     margin: 0;
 
 }
+em {
+    text-decoration: underline;
+    font-style: normal;
+}
 .container {
     display: flex;
     height: 100vh;
@@ -42,9 +46,15 @@ div, p {
     height: 100%;
     display: inline-block;
 }
-
+.accent {
+    letter-spacing: -3px;
+}
+.accent2 {
+    letter-spacing: -4px;
+}
 #right {
     width: 30vw;
+    overflow: auto;
     z-index: 10;
     display: inline-block;
     background-color: #dbdbdb;
@@ -61,7 +71,7 @@ div, p {
     color: #ba8a86;
 }
 h1 {
-    font-size: 1.5vw;
+    font-size: 1em;
     font-style: normal;
     font-weight: normal;
     text-align: center;
@@ -82,9 +92,8 @@ h1 {
 }
 #content {
     left: 69.5%;
-    width: 84%;
-    padding-top: calc(2 * 1.55vw);
-    /* padding-top: 5.5vh;*/
+    width: 293px;
+    padding: 20px 0 30px 0;
     margin: auto;
     -webkit-transition: color 0.2s ease-in-out;
     -moz-transition: color 0.2s ease-in-out;
@@ -95,6 +104,33 @@ h1 {
      -ms-animation: fadein 1s; /* Internet Explorer */
       -o-animation: fadein 1s; /* Opera < 12.1 */
          animation: fadein 1s;
+}
+#story {
+
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+     -ms-animation: fadein 1s; /* Internet Explorer */
+      -o-animation: fadein 1s; /* Opera < 12.1 */
+         animation: fadein 1s;
+} 
+#story a {
+
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+     -ms-animation: fadein 1s; /* Internet Explorer */
+      -o-animation: fadein 1s; /* Opera < 12.1 */
+         animation: fadein 1s;
+}
+#right p {
+    margin-bottom: 12px;
 }
 #caption {
     padding: 12px;
@@ -164,8 +200,12 @@ video {
 #about {
     bottom: 12px;
     left: 69.6%;
+    display: none;
     position: absolute;
     color:#ba8a86;
+}
+#info p {
+    margin-bottom: 12px;
 }
 #about:hover {
     cursor: pointer;
@@ -179,7 +219,7 @@ video {
     bottom: 0;
     color:#ba8a86;
     right: 0;
-    padding: 12px;
+    padding: 0 12px 12px 12px;
     position: absolute;
 }
 
@@ -215,8 +255,11 @@ video {
     transition: color 0.2s ease-in-out;
 }
 #credits {
-    padding-top: calc(1 * 1.55vw);
     margin: auto;
+}
+#thankyou{
+    display: inline-block;
+
 }
 .hyphen {
     font-family: 'Times New Roman', Times, serif;
