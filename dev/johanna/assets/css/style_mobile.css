@@ -1,0 +1,79 @@
+@media only screen and (max-width: 768px) {
+    
+    #caption {
+        font-size: 19px;
+        line-height: 21px;
+    }
+    #left {
+        display: block;
+        position: absolute;
+        width: 100% !important;
+    }
+    #right {
+        /* overflow: auto; */
+        width: 100% !important;
+        height: auto!important;
+        padding: 0 !important;
+        top: 100%;
+        position: relative;
+    }
+    #right, #intro, #info, #content {
+        font-size: 19px !important;
+        line-height: 21px;
+    }
+    #intro {
+        padding: 12px;
+    }
+    h1 {
+        font-size: 19px !important;
+        line-height: 21px;
+
+    }
+    #content {
+        width: 90%;
+        padding-top: 21px !important;
+        max-width: 319px !important; 
+
+    }
+    #info {
+        left: 12px !important;
+    }
+    #about {
+        left: 12px !important;
+    }
+    #about, #share, #caption {
+        font-size: 19px !important;
+        line-height: 21px;
+
+    }
+    #info {
+        padding-top: 12px;
+        max-width: 98% !important;
+    }
+    #credits {
+        padding-top: 21px !important; 
+    }
+    #play, #fullscreen, #pause {
+        font-size: 19px !important;
+        line-height: 21px;
+    }
+    
+    #caption {
+        z-index: 10000 !important;
+    }
+    #play {
+        z-index: 1000;
+    }
+    #player {
+        object-fit: contain !important;
+        background-color: black;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+      body, #caption, #left, #right, #play, #fullscreen, #pause, #info, h1, #intro, #content, #about, #share, {
+          font-size: 17px !important;
+          line-height: 16px;
+          letter-spacing: 0;
+      }
+  }
