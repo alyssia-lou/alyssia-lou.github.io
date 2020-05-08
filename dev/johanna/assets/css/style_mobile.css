@@ -10,7 +10,7 @@
     #left {
         display: block !important;
         width: 100% !important;
-        height: 100vh !important;
+        height: 100% !important;
     }
     #right {
         overflow: unset !important;
@@ -50,6 +50,9 @@
         position: absolute !important;
 
     }
+    #play, #pause, #fullscreen {
+        color: #d01d21 !important;
+    }
     #story {
         padding: 12px 12px 0 12px;
     }
@@ -79,10 +82,13 @@
     #player {
         object-fit: contain !important;
         background-color: black;
+        height: 100% !important;
         position: unset !important;
-    }
   }
-
+  #fullscreen {
+      display: none;
+  }
+}
   @media only screen and (max-width: 320px) {
       body, #caption, #left, #right, #play, #fullscreen, #pause, #info, h1, #intro, #content, #about, #share, {
           font-size: 17px !important;
