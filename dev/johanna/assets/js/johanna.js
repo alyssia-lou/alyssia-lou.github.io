@@ -1,3 +1,5 @@
+/* Alyssia Lou http://www.alyssialou.com */
+
 /* ABOUT */
 
 $("#about").click(function () {
