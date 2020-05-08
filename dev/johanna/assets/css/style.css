@@ -154,7 +154,9 @@ h1 {
     object-fit: cover;
     object-position: center;
 }
-
+#player-mobile {
+    display: none;
+}
 #play {
     padding: 12px;
     bottom: 0;
@@ -164,6 +166,9 @@ h1 {
 }
 #play:hover {
     opacity: 0.5;
+}
+#play-mobile {
+    display: none;
 }
 #pause {
     padding: 12px;
