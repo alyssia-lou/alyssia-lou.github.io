@@ -47,7 +47,7 @@
     #about, #share, #caption {
         font-size: 19px !important;
         line-height: 21px;
-        position: relative !important;
+        position: absolute !important;
 
     }
     #story {
@@ -79,6 +79,7 @@
     #player {
         object-fit: contain !important;
         background-color: black;
+        position: unset !important;
     }
   }
 
