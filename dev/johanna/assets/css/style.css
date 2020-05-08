@@ -133,6 +133,7 @@ h1 {
     padding: 12px;
     color: white;
     z-index: 1;
+    position: absolute;
 }
 #area {
     width: 100%;
