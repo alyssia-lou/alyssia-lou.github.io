@@ -75,7 +75,7 @@ h1 {
     font-weight: normal;
     text-align: center;
     padding: 0;
-    margin: 1.55vw 0 0 0;
+    margin: 12px 0 0 0;
 }
 #intro {
     
@@ -213,13 +213,15 @@ video {
 }
 
 /* SHARE */
-
+#website {
+    display: inline-block;
+}
 #share {
-    bottom: 0;
     color:#ba8a86;
     right: 0;
-    padding: 0 12px 12px 12px;
-    position: absolute;
+    float: right;
+    display: inline-block;
+    padding: 0;
 }
 
 .share-less {
@@ -254,7 +256,7 @@ video {
     transition: color 0.2s ease-in-out;
 }
 #credits {
-    margin: auto;
+    display: inline-block;
 }
 .hyphen {
     font-family: 'Times New Roman', Times, serif;

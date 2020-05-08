@@ -119,6 +119,7 @@ $("#share").mouseover(function () {
     $("#content").addClass("inactive");
     $("#story").addClass("inactive");
     $("#story a").addClass("inactive");
+    $("#website a").addClass("inactive");
 });
 $("#share").mouseout(function () {
     $(".share-more").hide();
@@ -128,4 +129,5 @@ $("#share").mouseout(function () {
     $("#content").removeClass("inactive");
     $("#story").removeClass("inactive");
     $("#story a").removeClass("inactive");
+    $("#website a").removeClass("inactive");
 });
