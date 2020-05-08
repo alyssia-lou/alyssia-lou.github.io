@@ -51,6 +51,9 @@ $("#play").click(function () {
         $("#caption").fadeIn();
         $("#fullscreen").fadeOut();
         $("#right").fadeIn();
+        $("#topline").fadeOut();
+        $("#bottomline").fadeOut();
+        $("#fullscreen").fadeOut();
 
     } else { // Video is paused
         $("#play").text("Pause"); // text turns Pause
@@ -58,17 +61,23 @@ $("#play").click(function () {
         $("#area").show();
         $("#caption").fadeOut();
         $("#pause").fadeIn();
+        $("#topline").fadeIn();
+        $("#bottomline").fadeIn();
         $("#fullscreen").fadeIn();
         $("#play").fadeOut();
 
         $("#area").mouseover(function () {
             $("#fullscreen").hide();
             $("#pause").hide();
+            $("#topline").fadeOut();
+            $("#bottomline").fadeOut();
         });
 
         $("#area").mouseout(function () {
             $("#fullscreen").show();
             $("#pause").show();
+            $("#topline").fadeIn();
+            $("#bottomline").fadeIn();
         });
 
         $("#pause").click(function () {

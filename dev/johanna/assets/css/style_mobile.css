@@ -129,11 +129,14 @@
           font-size: 14.5px!important; 
       }
   }
-  @media only screen and (min-width: 1300px) { 
+  @media only screen and (min-width: 1280px) { 
       body {
           font-size: 1.5em!important; 
       }
       #content {
           max-width: 400px!important;
+      }
+      #topline,#bottomline {
+          height: 93px !important;
       }
   }
