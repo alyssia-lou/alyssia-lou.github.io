@@ -1,5 +1,7 @@
 @media only screen and (max-width: 768px) {
-    
+    .container {
+        height: 100%;
+    }
     #caption {
         font-size: 19px;
         line-height: 21px;
