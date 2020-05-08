@@ -50,7 +50,9 @@
 
     }
     #play, #pause, #fullscreen {
-        position: absolute !important;
+        position: relative !important;
+        font-size: 19px !important;
+        line-height: 21px;
     }
     #story {
         padding: 12px 12px 0 12px;
@@ -65,10 +67,6 @@
     #credits {
         padding-top: 21px !important; 
     }
-    #play, #fullscreen, #pause {
-        font-size: 19px !important;
-        line-height: 21px;
-    }
     #share {
         padding-right: 12px !important;
     }
@@ -77,11 +75,12 @@
     }
     #play {
         z-index: 1000;
+        top: -50px;
     }
     #player {
         object-fit: contain !important;
         background-color: black;
-        height: 100vh !important;
+        height: 460px !important;
         position: unset !important;
   }
   #fullscreen {
