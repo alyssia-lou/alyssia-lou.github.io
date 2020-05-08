@@ -39,15 +39,6 @@ $("#about").click(function () {
 });
 
 /* VIDEO PLAYER */
-var vid = document.getElementById("player");
-
-function playVid() {
-    vid.play();
-}
-
-function pauseVid() {
-    vid.pause();
-}
 
 $("#play").click(function () {
     var play = $("#play").text();
@@ -105,6 +96,15 @@ $("#play").click(function () {
 });
 
 
+var vid = document.getElementById("player");
+
+function playVid() {
+    vid.play();
+}
+
+function pauseVid() {
+    vid.pause();
+}
 var elem = document.getElementById("player");
 
 function openFullscreen() {

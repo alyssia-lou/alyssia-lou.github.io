@@ -156,7 +156,7 @@ h1 {
 }
 
 video {
-    cursor: pointer;
+    width: 100%;
 }
 #play {
     padding: 12px;
