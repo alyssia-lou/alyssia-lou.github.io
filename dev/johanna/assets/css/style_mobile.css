@@ -1,11 +1,13 @@
 @media only screen and (max-width: 768px) {
+    body {
+        font-size: 19px;
+        line-height: 21px;
+    }
     .container {
         height: 100% !important;
         display: block !important;
     }
     #caption {
-        font-size: 19px;
-        line-height: 21px;
     }
 
     #left {
@@ -21,17 +23,11 @@
         top: 460px !important;
         position: absolute;
     }
-    #right, #intro, #info, #content {
-        font-size: 19px !important;
-        line-height: 21px;
-    }
     #intro {
         padding: 12px;
     }
     
     h1 {
-        font-size: 19px !important;
-        line-height: 21px;
 
     }
     #content {
@@ -47,14 +43,8 @@
         left: 12px !important;
     }
     #about, #share, #caption {
-        font-size: 19px !important;
-        line-height: 21px;
         position: absolute !important;
 
-    }
-    #play, #pause, #fullscreen {
-        font-size: 19px !important;
-        line-height: 21px;
     }
     #story {
         padding: 12px 12px 0 12px;
@@ -124,7 +114,7 @@
           position: relative !important;
       }
       #content {
-          width: 92vw !important;
+          width: 80vw !important;
           padding: 12px;
       }
       #share {
@@ -132,5 +122,18 @@
           position: relative !important;
       }
       #right {
+      }
+  }
+  @media only screen and (max-width: 1062px) { 
+      body {
+          font-size: 14.5px!important; 
+      }
+  }
+  @media only screen and (min-width: 1300px) { 
+      body {
+          font-size: 1.5em!important; 
+      }
+      #content {
+          max-width: 400px!important;
       }
   }
