@@ -18,7 +18,6 @@
         height: unset!important;
         padding: 0 !important;
         position: relative;
-        display: block !important;
     }
     #right, #intro, #info, #content {
         font-size: 19px !important;
