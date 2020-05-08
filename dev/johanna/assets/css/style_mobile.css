@@ -51,7 +51,7 @@
 
     }
     #play, #pause, #fullscreen {
-        color: #d01d21 !important;
+        position: absolute !important;
     }
     #story {
         padding: 12px 12px 0 12px;
@@ -82,7 +82,7 @@
     #player {
         object-fit: contain !important;
         background-color: black;
-        height: 100% !important;
+        height: 100vh !important;
         position: unset !important;
   }
   #fullscreen {
