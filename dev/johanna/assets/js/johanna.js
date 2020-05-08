@@ -39,6 +39,15 @@ $("#about").click(function () {
 });
 
 /* VIDEO PLAYER */
+var vid = document.getElementById("player");
+
+function playVid() {
+    vid.play();
+}
+
+function pauseVid() {
+    vid.pause();
+}
 
 $("#play").click(function () {
     var play = $("#play").text();
