@@ -151,3 +151,8 @@ $("#share").mouseout(function () {
     $("#story a").removeClass("inactive");
     $("#website a").removeClass("inactive");
 });
+
+$("#story").click(function () {
+    $(".share-more").hide();
+
+});
