@@ -1,0 +1,18 @@
+---
+layout: default
+caption:  "Fou, 2020"
+img_id: "7"
+image-left: Website_FOU_Book_25
+image-left-position: center
+image-left-size: cover
+image-left-repeat: no-repeat
+image-right: Website_FOU_Book_38
+image-right-position: center
+image-right-size: 350px
+image-right-repeat: no-repeat
+permalink: "/fou-1/"
+publisher: Distance Series
+art-director: Yoann Wenger
+designer: Jessica Pichet
+
+---

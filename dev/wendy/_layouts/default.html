@@ -1,0 +1,22 @@
+{% include head.html %}
+{% include header.html %}
+
+
+{% for post in site.posts %}
+
+
+<div id="projects">
+
+    {% if post.image-center %} <a href="assets/images/{{ post.image-center }}.jpg" class="slideshow" data-fancybox-group="pinf" id="{{ post.img_id }}" data-ct="<a href='/index/#{{ post.img_id }}'> <span class='image-id'>{{ post.img_id }}</span></a>" data-style="wh"></a>
+    {% endif %}
+    {% if post.image-left %} <div id="image-left"><a href="assets/images/{{ post.image-left }}.jpg" class="slideshow" data-fancybox-group="pinf" id="{{ post.img_id }}" data-ct="<a href='/index/#{{ post.img_id }}'> <span class='image-id'>{{ post.img_id }}</span></a>" data-style="wh"></a></div>
+    {% endif %}
+    {% if post.image-right %} <div id="image-right"><a href="assets/images/{{ post.image-right }}.jpg" class="slideshow" data-fancybox-group="pinf" id="{{ post.img_id }}" data-ct="<div class='image-right'><a href='/index/#{{ post.img_id }}'> <span class='image-id'>{{ post.img_id }}</span></a></div>" data-style="wh"></a></div>
+    {% endif %}
+
+
+    </div>
+    
+
+    {% endfor %}
+{% include footer.html %}

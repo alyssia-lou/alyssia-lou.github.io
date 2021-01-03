@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-title" content="Kuchenbeiser">
+<meta name="description" content="The second website of Bernd Kuchenbeiser, compiled during the years, first published February 14, 2016.">
+<title>Bernd Kuchenbeiser Projekte</title>
+<link rel="stylesheet" href="media/fancybox.css">
+<link rel="stylesheet" href="media/style.css">
+<script src="media/jquery.js"></script>
+<script src="media/fancybox.js"></script>
+<script src="media/lazyload.js"></script>
+<script src="media/jquery.touchSwipe.js"></script>
+<script src="media/functions.js"></script>
+</head>
+
+<body id="home">
+
+<header>
+<div class="bk"><a href="/info/" onclick="location.href = 'https://www.kuchenbeiser.de/info/'">K</a></div>
+<div class="inf"><a href="/data/" onclick="location.href = 'https://www.kuchenbeiser.de/data/'">&infin;</a></div>
+</header>
+
+<div id="projects">
+<a href="https://www.kuchenbeiser.de/images_projects/165_Kuchenbeiser_Kippenberger_2400.jpg" class="zoom" data-fancybox-group="pinf" id="165" data-ct="<a href='/data/#165'><div class='cap cp'><span class='y'>18</span> <span class='m'>12</span> <span class='d'>31</span> <span class='n'>165</span></div> <div class='inf i'>&infin;</div></a>" data-style="bl"></a>
+<a href="https://www.kuchenbeiser.de/images_projects/164_Kuchenbeiser_FAZ_2500.jpg" class="zoom" data-fancybox-group="pinf" id="164" data-ct="<a href='/data/#164'><div class='cap cp'><span class='y'>19</span> <span class='m'>7</span> <span class='d'>6</span> <span class='n'>164</span></div> <div class='inf i'>&infin;</div></a>" data-style="wh"></a>
+<a href="https://www.kuchenbeiser.de/images_projects/163_Kuchenbeiser_Quellen.jpg" class="zoom" data-fancybox-group="pinf" id="163" data-ct="<a href='/data/#163'><div class='cap cp'><span class='y'>19</span> <span class='m'>6</span> <span class='d'>27</span> <span class='n'>163</span></div> <div class='inf i'>&infin;</div></a>" data-style="wh"></a>
+
+</div>
+<!-- /projects -->
+
+<script>
+$(function () {
+if (!window.location.hash)
+$('#165').trigger('click');
+});
+</script>
+
+</body>
+
+</html>

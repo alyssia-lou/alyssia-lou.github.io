@@ -1,0 +1,492 @@
+
+/*		R E S P O N S I V E
+----------------------------------------------- */
+
+@media screen and (min-width: 1400px) {
+
+    header .srch {
+            top: 0;
+    }
+    
+    }
+    
+    
+    @media screen and (max-width: 1200px) {
+    
+    body {
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: 0.01em;
+    }
+    
+    #info {
+            margin: 124px 50px 50px 30px;
+            line-height: 24px;
+    }
+    
+    header {
+            top: 24px;
+            margin-right: 25px;
+    }
+    
+    header .bk {
+            margin-left: 20px;
+    }
+    
+    header .y {
+            width: 35px;
+            margin-left: 100px;
+    }
+    
+    header .m {
+            width: 35px;
+            margin-right: 20px;
+    }
+    
+    header .d {
+            width: 35px;
+    }
+    
+    header .n {
+            margin-right: 200px;
+            width: 60px;
+    }
+    
+    header .ct a {
+            margin-right: 35px;
+    }
+    
+    header .inf {
+            margin-right: 20px;
+    }
+    
+    header .i {
+            margin-right: 30px;
+    }
+    
+    header .srch {
+            margin-right: 25px;
+            top: 0;
+    }
+    
+    _:-webkit-full-screen:not(:root:root), header .srch  {
+            top: -3px;
+    
+    }
+    
+    header #search {
+            font-size: 20px;
+            width: 90px;
+            margin-right: 5px;
+    }
+    
+    #data {
+            margin: 0px 200px 50px 100px;
+    }
+    
+    #data table {
+            line-height: 24px;
+    }
+    
+    table .td {
+            width: 180px;
+            padding-top: 24px;
+    }
+    
+    table .tt a {
+            padding-right: 5%;
+            padding-left: 5%;
+    }
+    
+    table .tn {
+            width: 50px;
+    }
+    
+    table .y {
+            width: 35px;
+    }
+    
+    table .m {
+            width: 35px;
+            padding-right: 20px;
+    }
+    
+    table .d {
+            width: 35px;
+    }
+    
+    table div {
+            padding-right: 5%;
+            padding-left: 5%;
+    }
+    
+    .fancybox-error {
+            font-size: 20px;
+            line-height: 24px;
+    }
+    
+    }
+    
+    
+    @media screen and (max-width: 950px) {
+    
+    body {
+            font-size: 15px;
+            line-height: 18px;
+            letter-spacing: 0.01em;
+    }
+    
+    #info {
+            margin: 80px 40px 40px 26px;
+            line-height: 18px;
+    }
+    
+    header {
+            top: 18px;
+            margin-right: 20px;
+    }
+    
+    header .bk {
+            margin-left: 15px;
+    }
+    
+    header .y {
+            width: 25px;
+            margin-left: 70px;
+    }
+    
+    header .m {
+            width: 25px;
+            margin-right: 15px;
+    }
+    
+    header .d {
+            width: 25px;
+    }
+    
+    header .n {
+            margin-right: 140px;
+            width: 60px;
+    }
+    
+    header .ct a {
+            margin-right: 30px;
+    }
+    
+    header .inf {
+            margin-right: 15px;
+    }
+    
+    header .i {
+            margin-right: 25px;
+    }
+    
+    header .srch {
+            margin-right: 20px;
+    }
+    
+    _:-webkit-full-screen:not(:root:root), header .srch  {
+            top: -3px;
+    
+    }
+    
+    header #search {
+            font-size: 15px;
+            width: 90px;
+            margin-right: 5px;
+    }
+    
+    #data {
+            margin: 0px 140px 50px 70px;
+    }
+    
+    #data table {
+            line-height: 18px;
+    }
+    
+    table .td {
+            width: 120px;
+            padding-top: 18px;
+    }
+    
+    table .tt a {
+            padding-right: 5%;
+            padding-left: 5%;
+    }
+    
+    table .tn {
+            width: 50px;
+    }
+    
+    table .y {
+            width: 25px;
+    }
+    
+    table .m {
+            width: 25px;
+            padding-right: 15px;
+    }
+    
+    table .d {
+            width: 25px;
+    }
+    
+    table div {
+            padding-right: 5%;
+            padding-left: 5%;
+    }
+    
+    .fancybox-error {
+            font-size: 15px;
+            line-height: 18px;
+    }
+    
+    }
+    
+    
+    @media screen and (max-width: 630px) {
+    
+    body {
+            font-size: 17px;
+            line-height: 20px;
+            letter-spacing: 0.01em;
+    }
+    #bio {
+            display: block;
+            width: 100%;
+            top: $padding;
+            position: absolute;
+            margin-left: $padding;
+    }
+      article {
+              display: none;
+              position: absolute;
+              top: 60%;
+              width: 100%;
+              margin-left: 0;
+      }
+      #footer {
+              bottom: $padding;
+              left: 22px;
+              position: fixed;
+            }
+    #info {
+            margin: 60px 40px 20px 20px;
+            line-height: 15px;
+    }
+    
+    header {
+            top: 15px;
+            margin-right: 15px;
+    }
+    
+    header .bk {
+            margin-left: 10px;
+    }
+    
+    header .y {
+            width: 20px;
+            margin-left: 60px;
+    }
+    
+    header .m {
+            width: 20px;
+            margin-right: 12px;
+    }
+    
+    header .d {
+            width: 20px;
+    }
+    
+    header .n {
+            margin-right: 60px;
+            width: 25px;
+    }
+    
+    header .ct a {
+            margin-right: 20px;
+    }
+    
+    header .inf {
+            margin-right: 8px;
+            margin-top: 1px;
+    }
+    
+    header .i {
+            margin-right: 18px;
+    }
+    
+    header .srch {
+            display: none;
+    }
+    
+    #data {
+            margin: 0px 60px 50px 60px;
+    }
+    
+    #data table {
+            line-height: 15px;
+    }
+    
+    table .td {
+            width: 80px;
+            padding-top: 15px;
+    }
+    
+    table .tt a {
+            padding-right: 2%;
+            padding-left: 5%;
+    }
+    
+    table .tn {
+            width: 25px;
+    }
+    
+    table .y {
+            width: 20px;
+    }
+    
+    table .m {
+            width: 20px;
+            padding-right: 12px;
+    }
+    
+    table .d {
+            width: 20px;
+    }
+    
+    table div {
+            padding-right: 2%;
+            padding-left: 5%;
+    }
+    
+    .fancybox-error {
+            font-size: 12px;
+            line-height: 15px;
+    }
+    
+    }
+    
+    
+    @media screen and (max-width: 440px) {
+    
+    table .td {
+            display: none;
+    }
+    
+    table .tt {
+            border-top: 15px solid #fff;
+    }
+    
+    table .tt a {
+            padding-right: 0;
+            padding-left: 0;
+            display: block;
+            width: 100%;
+    }
+    
+    table .tt div a {
+            display: inline;
+    }
+    
+    table div {
+            padding-right: 0;
+            padding-left: 0;
+    }
+    
+    }
+    
+    
+    /*		E V E R Y T H I N G
+    ----------------------------------------------- */
+    
+    #everything {
+            margin: 40px 100px 0 100px;
+            text-align: center;
+    }
+    
+    #everything a {
+            display: inline-block;
+            margin: 0 20px 100px 20px;
+    }
+    
+    #everything span {
+            display: block;
+            width: 200px;
+            height: 200px;
+    }
+    
+    #everything em {
+            width: 0;
+            height: 200px;
+            vertical-align: middle;
+            display: inline-block;
+    }
+    
+    #everything img {
+            max-width: 200px;
+            max-height: 200px;
+            width: auto;
+            height: auto;
+            vertical-align: middle;
+            display: inline-block;
+    }
+    
+    
+    
+    @media screen and (max-width: 950px) {
+    
+    #everything {
+            margin: 30px 60px 0 60px;
+            text-align: center;
+    }
+    
+    #everything a {
+            display: inline-block;
+            margin: 0 15px 80px 15px;
+    }
+    
+    #everything span {
+            width: 150px;
+            height: 150px;
+    }
+    
+    #everything em {
+            height: 150px;
+    }
+    
+    #everything img {
+            max-width: 150px;
+            max-height: 150px;
+    }
+    
+    }
+    
+    
+    @media screen and (max-width: 600px) {
+    
+    #everything {
+            margin: 18px 40px 0 40px;
+            text-align: center;
+    }
+    
+    #everything a {
+            display: inline-block;
+            margin: 0 10px 60px 10px;
+    }
+    
+    #everything span {
+            width: 100px;
+            height: 100px;
+    }
+    
+    #everything em {
+            height: 100px;
+    }
+    
+    #everything img {
+            max-width: 100px;
+            max-height: 100px;
+    }
+    
+    }

@@ -1,0 +1,46 @@
+{% include head.html %}
+{% include header.html %}
+
+<div id="bio">Wendy Huynh, based between London and Paris <br>Founder/Editor of Arcades Magazine.
+<br>
+    <br>
+    Selected clients<br>
+    Adidas<br>
+    ASOS<br>
+    Carhartt WIP <br>Distance<br>
+    MM6 Margiela <br>Nike<br>
+    Veja<br>
+    System Homme<br>
+    
+    <br>Selected publications <br>
+    Bricks<br>
+Indie<br>
+M le Monde<br>
+Sleek<br>
+The Guardian Vice<br>
+Vogue IT<br>
+<br>Also on <a href="http://www.instagram.com/wendyhuynh" target="_blank">Instagram</a>. For inquiries feel free to contact <a href="mailto:contact@wendyhuynh.com">here</a>.
+</div>
+<article>
+    {% for post in site.posts %}
+    
+        <div class="caption" id="{{ post.img_id }}">
+        <!-- <div class="caption-image"><a href='../#{{ post.img_id }}'>
+                {% if post.image-center %} <img src="../assets/images/{{ post.image-center }}.jpg" width="150px">{% endif %}
+                {% if post.image-left %} <img src="../assets/images/{{ post.image-left }}.jpg" width="150px"></a>{% endif %}
+                {% if post.image-right %} <img src="../assets/images/{{ post.image-right }}.jpg" width="150px"></a>{% endif %}</a>
+            </div>-->   
+            
+            <div class="caption-left"><a href='../#{{ post.img_id }}'>{{ post.img_id }}.</a> </div>
+            <div class="caption-right"><a href='../#{{ post.img_id }}'>
+                {% if post.caption %}<em>{{ post.caption }}</em><br>{% endif %}</a>
+            </div>
+        </div>
+
+
+    {% endfor %}
+</article>
+<div id="footer">Site web: <a href="http://www.alyssialou.com" target="_blank">Alyssia Lou</a></div>
+
+
+{% include footer.html %}

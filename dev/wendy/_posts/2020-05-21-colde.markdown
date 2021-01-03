@@ -1,0 +1,12 @@
+---
+layout: default
+caption:  "Colde Album, 2019"
+img_id: "9"
+image-center: Website_Colde_Album_2
+image-center-position: center
+image-center-size: 370px
+image-center-repeat: no-repeat
+permalink: "/colde/"
+brand: Romeo TW Jung
+
+---

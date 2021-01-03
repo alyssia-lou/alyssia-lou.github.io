@@ -1,0 +1,12 @@
+---
+layout: default
+caption:  "EU Campaign, 2019"
+img_id: "8"
+image-center: Website_EU_Campaign_4
+image-center-position: center
+image-center-size: contain
+image-center-repeat: no-repeat
+permalink: "/eu-campaign/"
+brand: EU Campaign
+
+---
