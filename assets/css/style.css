@@ -141,16 +141,16 @@ article {
 }
 
 /* CLICKABLE AREAS */
-#area-15, #area-14, #area-13, #area-12, #area-11, #area-10, #area-9, #area-8, #area-7, #area-6, #area-5, #area-4, #area-3, #area-2, #area-1 {
+#area-21, #area-20, #area-19, #area-18, #area-17, #area-16, #area-15, #area-14, #area-13, #area-12, #area-11, #area-10, #area-9, #area-8, #area-7, #area-6, #area-5, #area-4, #area-3, #area-2, #area-1 {
   position: absolute;
   height: calc(100vh - 93px);
   top: 93px;
   z-index: 3;
   opacity: 1;
-  width: 6.6vw;
+  width: 4.7vw;
   display: block;
 }
-#area-15:hover ~ #caption-default, #area-14:hover ~ #caption-default, #area-13:hover ~ #caption-default, #area-12:hover ~ #caption-default, #area-11:hover ~ #caption-default, #area-10:hover ~ #caption-default, #area-9:hover ~ #caption-default, #area-8:hover ~ #caption-default, #area-7:hover ~ #caption-default, #area-6:hover ~ #caption-default, #area-5:hover ~ #caption-default, #area-4:hover ~ #caption-default, #area-3:hover ~ #caption-default, #area-2:hover ~ #caption-default, #area-1:hover ~ #caption-default {
+#area-21:hover ~ #caption-default, #area-20:hover ~ #caption-default, #area-19:hover ~ #caption-default, #area-18:hover ~ #caption-default, #area-17:hover ~ #caption-default, #area-16:hover ~ #caption-default, #area-15:hover ~ #caption-default, #area-14:hover ~ #caption-default, #area-13:hover ~ #caption-default, #area-12:hover ~ #caption-default, #area-11:hover ~ #caption-default, #area-10:hover ~ #caption-default, #area-9:hover ~ #caption-default, #area-8:hover ~ #caption-default, #area-7:hover ~ #caption-default, #area-6:hover ~ #caption-default, #area-5:hover ~ #caption-default, #area-4:hover ~ #caption-default, #area-3:hover ~ #caption-default, #area-2:hover ~ #caption-default, #area-1:hover ~ #caption-default {
   display: none;
 }
 
@@ -162,100 +162,142 @@ article {
 }
 
 #area-2 {
-  left: 6.6vw;
+  left: 4.7vw;
 }
 #area-2:hover ~ #project-2 {
   display: block;
 }
 
 #area-3 {
-  left: calc(6.6vw * 2);
+  left: calc(4.7vw * 2);
 }
 #area-3:hover ~ #project-3 {
   display: block;
 }
 
 #area-4 {
-  left: calc(6.6vw * 3);
+  left: calc(4.7vw * 3);
 }
 #area-4:hover ~ #project-4 {
   display: block;
 }
 
 #area-5 {
-  left: calc(6.6vw * 4);
+  left: calc(4.7vw * 4);
 }
 #area-5:hover ~ #project-5 {
   display: block;
 }
 
 #area-6 {
-  left: calc(6.6vw * 5);
+  left: calc(4.7vw * 5);
 }
 #area-6:hover ~ #project-6 {
   display: block;
 }
 
 #area-7 {
-  left: calc(6.6vw * 6);
+  left: calc(4.7vw * 6);
 }
 #area-7:hover ~ #project-7 {
   display: block;
 }
 
 #area-8 {
-  left: calc(6.6vw * 7);
+  left: calc(4.7vw * 7);
 }
 #area-8:hover ~ #project-8 {
   display: block;
 }
 
 #area-9 {
-  left: calc(6.6vw * 8);
+  left: calc(4.7vw * 8);
 }
 #area-9:hover ~ #project-9 {
   display: block;
 }
 
 #area-10 {
-  left: calc(6.6vw * 9);
+  left: calc(4.7vw * 9);
 }
 #area-10:hover ~ #project-10 {
   display: block;
 }
 
 #area-11 {
-  left: calc(6.6vw * 10);
+  left: calc(4.7vw * 10);
 }
 #area-11:hover ~ #project-11 {
   display: block;
 }
 
 #area-12 {
-  left: calc(6.6vw * 11);
+  left: calc(4.7vw * 11);
 }
 #area-12:hover ~ #project-12 {
   display: block;
 }
 
 #area-13 {
-  left: calc(6.6vw * 12);
+  left: calc(4.7vw * 12);
 }
 #area-13:hover ~ #project-13 {
   display: block;
 }
 
 #area-14 {
-  left: calc(6.6vw * 13);
+  left: calc(4.7vw * 13);
 }
 #area-14:hover ~ #project-14 {
   display: block;
 }
 
 #area-15 {
-  left: calc(6.6vw * 14);
+  left: calc(4.7vw * 14);
 }
 #area-15:hover ~ #project-15 {
+  display: block;
+}
+
+#area-16 {
+  left: calc(4.7vw * 15);
+}
+#area-16:hover ~ #project-16 {
+  display: block;
+}
+
+#area-17 {
+  left: calc(4.7vw * 16);
+}
+#area-17:hover ~ #project-17 {
+  display: block;
+}
+
+#area-18 {
+  left: calc(4.7vw * 17);
+}
+#area-18:hover ~ #project-18 {
+  display: block;
+}
+
+#area-19 {
+  left: calc(4.7vw * 18);
+}
+#area-19:hover ~ #project-19 {
+  display: block;
+}
+
+#area-20 {
+  left: calc(4.7vw * 19);
+}
+#area-20:hover ~ #project-20 {
+  display: block;
+}
+
+#area-21 {
+  left: calc(4.7vw * 20);
+}
+#area-21:hover ~ #project-21 {
   display: block;
 }
 
@@ -283,7 +325,7 @@ article {
   }
 }
 
-#project-1, #project-2, #project-3, #project-4, #project-5, #project-6, #project-7, #project-8, #project-9, #project-10, #project-11, #project-12, #project-13, #project-14, #project-15 {
+#project-1, #project-2, #project-3, #project-4, #project-5, #project-6, #project-7, #project-8, #project-9, #project-10, #project-11, #project-12, #project-13, #project-14, #project-15, #project-16, #project-17, #project-18, #project-19, #project-20, #project-21 {
   display: none;
 }
 
@@ -386,7 +428,7 @@ article {
 @media screen and (max-width: 768px) {
   .mobile-body {
     display: block;
-    height: 3300px;
+    height: 3900px;
   }
 }
 
@@ -406,7 +448,7 @@ article {
   }
 }
 
-.slideshow-25, .slideshow-24, .slideshow-23, .slideshow-22, .slideshow-21, .slideshow-20, .slideshow-19, .slideshow-18, .slideshow-17, .slideshow-16, .slideshow-15, .slideshow-14, .slideshow-13, .slideshow-12, .slideshow-11, .slideshow-10, .slideshow-9, .slideshow-8, .slideshow-7, .slideshow-6, .slideshow-5, .slideshow-4, .slideshow-3, .slideshow-2, .slideshow-1 {
+.slideshow-32, .slideshow-31, .slideshow-30, .slideshow-29, .slideshow-28, .slideshow-27, .slideshow-26, .slideshow-25, .slideshow-24, .slideshow-23, .slideshow-22, .slideshow-21, .slideshow-20, .slideshow-19, .slideshow-18, .slideshow-17, .slideshow-16, .slideshow-15, .slideshow-14, .slideshow-13, .slideshow-12, .slideshow-11, .slideshow-10, .slideshow-9, .slideshow-8, .slideshow-7, .slideshow-6, .slideshow-5, .slideshow-4, .slideshow-3, .slideshow-2, .slideshow-1 {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -558,6 +600,49 @@ article {
 .slideshow-25 {
   background-image: url("../../assets/images/ALYSSIALOU_04.jpg");
   background-size: cover;
+  z-index: 5;
+}
+
+.slideshow-26 {
+  background-image: url("../../assets/images/ALYSSIALOU_032c_1.jpg");
+  background-size: 75%;
+  z-index: 5;
+}
+
+.slideshow-27 {
+  background-image: url("../../assets/images/ALYSSIALOU_032c_2.jpg");
+  background-size: contain;
+  z-index: 5;
+}
+
+.slideshow-28 {
+  background-image: url("../../assets/images/ALYSSIALOU_032c_3.jpg");
+  background-size: contain;
+  z-index: 5;
+}
+
+.slideshow-29 {
+  background-image: url("../../assets/images/ALYSSIALOU_032c_4.jpg");
+  background-size: contain;
+  z-index: 5;
+}
+
+.slideshow-30 {
+  background-image: url("../../assets/images/ALYSSIA_JT_1.jpg");
+  background-size: cover;
+  z-index: 5;
+  color: #7e9a8b;
+}
+
+.slideshow-31 {
+  background-image: url("../../assets/images/JTH_FLEURES_POSTER2.jpg");
+  background-size: 75%;
+  z-index: 5;
+}
+
+.slideshow-32 {
+  background-image: url("../../assets/images/JTH_FLEURES_EVITE.jpg");
+  background-size: contain;
   z-index: 5;
 }
 
