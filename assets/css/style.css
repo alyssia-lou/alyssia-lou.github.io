@@ -104,6 +104,7 @@ img {
   z-index: 1;
   max-width: calc(100% - 30px);
   display: block;
+  height: 145px;
 }
 @media only screen and (max-width: 768px) {
   #header {
@@ -143,8 +144,8 @@ article {
 /* CLICKABLE AREAS */
 #area-21, #area-20, #area-19, #area-18, #area-17, #area-16, #area-15, #area-14, #area-13, #area-12, #area-11, #area-10, #area-9, #area-8, #area-7, #area-6, #area-5, #area-4, #area-3, #area-2, #area-1 {
   position: absolute;
-  height: calc(100vh - 93px);
-  top: 93px;
+  height: calc(100vh - 145px);
+  top: 145px;
   z-index: 3;
   opacity: 1;
   width: 4.7vw;
@@ -376,11 +377,11 @@ article {
 #caption-default {
   position: fixed;
   bottom: 0;
-  left: 15px;
+  left: 1px;
   padding: 11px 15px;
   margin: auto;
   width: calc(100% - 60px);
-  text-align: center;
+  text-align: left;
   z-index: 1;
   display: block;
 }

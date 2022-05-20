@@ -6,6 +6,7 @@
     z-index: 1;
     max-width: calc(100% - 30px);
     display: block;
+    height: $image-top-position;
     @media only screen and (max-width: $on-mobile) {
         display: block;
         padding: 12px $padding;
